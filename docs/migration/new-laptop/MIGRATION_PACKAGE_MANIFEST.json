@@ -1,0 +1,12 @@
+{
+  "package": "NEW_LAPTOP_MIGRATION_PACKAGE",
+  "created": "2026-11-05",
+  "source_backup": "D:\\Workspace\\_FNO_LAPTOP_HANDOVER_20261105_104453",
+  "workspace_backup": "D:\\Workspace\\Vijay_GitHub",
+  "classification": "MIGRATION_PACKAGE_READY_WITH_MANUAL_PREREQUISITES",
+  "projects_covered": 12,
+  "manual_steps_required": 9,
+  "authoritative_fno_backup": "D:\\Workspace\\_FNO_LAPTOP_HANDOVER_20261105_104453",
+  "no_secrets_included": true,
+  "no_live_execution_enabled": true
+}

@@ -1,0 +1,13 @@
+project,remote,branch,expected_head,runtime,deps,db_state,manual_steps
+fno-ai-paper-trading,github.com/vijayshri182/fno-ai-paper-trading,master,77ed747,Python 3.13,requirements.txt,SQLite paper_trading.db,credential reauth+safety latch
+fno-ai-paper-trading-dev,github.com/vijayshri182/fno-ai-paper-trading,dev/phase-13,61f2edc,Python 3.13,requirements.txt,SQLite sefre_*.db,credential reauth
+opencode-automation-controller,github.com/vijayshri182/opencode-automation-controller,master,9a6ac13,Python 3.13+Node,requirements.txt+package.json,bridge.db (SQLite),interactive login+MCP config
+eng-inova-ai,github.com/vijayshri182/eng-inova-ai,main,69da25e,Python 3.11,requirements.txt,none,none
+ai-career-agent,github.com/vijayshri182/ai-career-agent,main,822eddd,Python 3.12,requirements.txt,ai_career_agent.db (SQLite),none
+AI-Skills-Agents,github.com/vijayshri182/AI-Skills-Agents,main,efa686b,Python 3.11,requirements.txt,none,none
+IndianCoupleComedy_V2,github.com/vijayshri182/IndianCoupleComedy,master,dd05b73,Python 3.11,requirements.txt,none,none
+linkedin-gmail-poc,github.com/vijayshri182/linkedin-gmail-poc,main,6e4b063,Python 3.11,requirements.txt,none,Gmail OAuth
+medicine-research,github.com/vijayshri182/medicine-research,main,de03582,Python 3.11,requirements.txt,none,none
+Tips,github.com/vijayshri182/Tips,master,bb0001e,Python 3.11,requirements.txt,none,none
+recruiter-email-poc,(no remote),master,(no commits),Python 3.11,requirements.txt,none,none
+enginova-test-mission,(no remote),master,(no commits),Python 3.11,requirements.txt,none,none
