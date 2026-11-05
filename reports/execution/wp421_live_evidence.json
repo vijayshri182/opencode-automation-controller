@@ -1,0 +1,123 @@
+{
+  "project_url": "https://chatgpt.com/g/g-p-6ae87c1e48b08191a2cd33139c40639f/project",
+  "discovered": [
+    {
+      "title": "The Richest Man in Babylon",
+      "conversation_id": "69c3c250-1198-83a8-95bc-cddc19e12af8"
+    },
+    {
+      "title": "AI Skills for Senior Tech Managers",
+      "conversation_id": "69df81d8-67a8-83e8-a27e-dba90c3aa2c0"
+    },
+    {
+      "title": "Next Switch Preparation",
+      "conversation_id": "69e1ec3e-9e20-83e8-8e41-b2bb8d9d8255"
+    },
+    {
+      "title": "Market Downturn Predictions",
+      "conversation_id": "69bc0634-f9d4-83a7-bbac-317f86bd7869"
+    },
+    {
+      "title": "Netcracker BSS Customization Tasks",
+      "conversation_id": "6a225f17-44f4-8322-80b4-ad51ad1fea5a"
+    },
+    {
+      "title": "Create AI Experience Resource",
+      "conversation_id": "6a9fc741-e82c-83ee-8183-e53a55ed7df5"
+    },
+    {
+      "title": "Ai Video Continue",
+      "conversation_id": "6a9fe3c3-b2e4-83ee-8e2b-2ca12e392e8e"
+    },
+    {
+      "title": "F&O Paper Trading MVP",
+      "conversation_id": "6a9d3ab9-bce0-83ee-ace1-1b2bb6d24eed"
+    },
+    {
+      "title": "F & O V4",
+      "conversation_id": "6aa60b36-7de4-83ee-8c5a-69e00b3d25fc"
+    },
+    {
+      "title": "DELTA INTERVIEW PREPRATION",
+      "conversation_id": "6aa942ab-9a08-83e8-a424-6b41818cd8a2"
+    },
+    {
+      "title": "Chat GPT and Open Code Int",
+      "conversation_id": "6ae8397c-623c-83ec-b482-e86128a4bdbe"
+    },
+    {
+      "title": "Type 2 Diabetes Research",
+      "conversation_id": "6ae1c465-7ad4-83e8-950d-49539e655bac"
+    },
+    {
+      "title": "Medicine Research Start",
+      "conversation_id": "6ae1c420-dd7c-83e8-b4d5-5a8c0114c13b"
+    },
+    {
+      "title": "Project Test",
+      "conversation_id": "6ae87c0a-10c8-83ee-a666-c3a5cfea6521"
+    },
+    {
+      "title": "Type Here Responses",
+      "conversation_id": "6ae88f9a-4308-83ee-b57f-ccbf4fd1dc2e"
+    },
+    {
+      "title": "Automation test acknowledged",
+      "conversation_id": "6ae88e77-b42c-83ee-8217-2ea1491e384d"
+    },
+    {
+      "title": "Connection test reply",
+      "conversation_id": "6ae88829-60b8-83ec-81f6-8e1c23b69558"
+    },
+    {
+      "title": "Greeting response",
+      "conversation_id": "6ae88003-ce64-83ec-8447-10f187d8e1cd"
+    },
+    {
+      "title": "OpenCode automation test",
+      "conversation_id": "6ae87f47-eca0-83ee-929c-4a36dfadb6a6"
+    },
+    {
+      "title": "OpenCode Automation Testing",
+      "conversation_id": "6ae87cee-50a4-83e8-a0e6-eba390f83a7a"
+    },
+    {
+      "title": "Greeting response",
+      "conversation_id": "6ae87ad1-5460-83ee-b0cc-bc7c7a43a6f4"
+    },
+    {
+      "title": "F & O V12",
+      "conversation_id": "6ae839f6-b7c0-83ec-8e8c-59c1be86598e"
+    },
+    {
+      "title": "Test received\ntest",
+      "conversation_id": "6ae8a132-fdec-83ee-a481-2f35b04851a9"
+    },
+    {
+      "title": "Project Test\nPlease acknowledge this test by returning the exact marker WP420_CHATGPT_ROUNDTRIP_TEST_20261102 and briefly state that you received it. This is an integration test only; do not perform any repository",
+      "conversation_id": "6ae87c0a-10c8-83ee-a666-c3a5cfea6521"
+    },
+    {
+      "title": "Type Here Responses\nyou have to type here",
+      "conversation_id": "6ae88f9a-4308-83ee-b57f-ccbf4fd1dc2e"
+    },
+    {
+      "title": "Connection test reply\nWP414 connection test. Reply with: WP414_OK",
+      "conversation_id": "6ae88829-60b8-83ec-81f6-8e1c23b69558"
+    },
+    {
+      "title": "OpenCode Automation Testing\nOpenCode Automation Test Channel",
+      "conversation_id": "6ae87cee-50a4-83e8-a0e6-eba390f83a7a"
+    }
+  ],
+  "selected": {
+    "title": "The Richest Man in Babylon",
+    "conversation_id": "69c3c250-1198-83a8-95bc-cddc19e12af8",
+    "clicked": true,
+    "reason": "newest_eligible"
+  },
+  "latest_user_message": "yes\nAnalyzed",
+  "composer_ready": true,
+  "final_url": "https://chatgpt.com/c/69c3c250-1198-83a8-95bc-cddc19e12af8",
+  "final_title": "The Richest Man in Babylon"
+}

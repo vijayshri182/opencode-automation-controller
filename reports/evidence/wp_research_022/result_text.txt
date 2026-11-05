@@ -1,0 +1,30 @@
+## Vacancy status
+The Adzuna listing `https://www.adzuna.in/details/1155089474` returns **HTTP 410 (Gone)** as of research date (4 Nov 2026). No identical mirror of internal ID `feb19c33-8495-4db0-ba6c-55219a06cd39` / external ID `1155089474` was found on other boards, PayU careers (`careers.payu.in`), or the Accel Wibmo board. JobsMap reports no open roles at Wibmo as of 2 Nov 2026. **Conclusion: this specific vacancy is not publicly available (likely closed/filled).** Related but distinct/inactive Director of Engineering postings exist on Cutshort (via Zyoin, posted 25 Nov 2020; and a separate "Director Engineering" posted by Shirin AM).
+
+## Hiring organisation & engineering leadership
+- **Employer/hiring org:** Wibmo Inc. (a PayU company; PayU Digital Labs Pvt Ltd, Bengaluru). Acquired by PayU/Naspers in 2019.
+- **Engineering leadership:** Alias Varghese — VP & Head of Engineering, Wibmo (LinkedIn: https://linkedin.com/in/aliasvm). Wibmo leadership page: https://wibmo.com/leadership.
+- CEO: Shailesh Paul. Company LinkedIn: https://www.linkedin.com/company/wibmo.
+
+## Recruiters / TA (public evidence only)
+- **Prabhat Kumar** — Talent Acquisition Manager, Wibmo (oversees tech/product hiring incl. directors). LinkedIn: https://linkedin.com/in/prabhat-kumar-3b982991. (Company-level recruiter evidence.)
+- **Md A.** — Associate Director, Talent Acquisition at PayU (hires senior sales leaders for PayU Digital Labs/Wibmo). LinkedIn: https://linkedin.com/in/amimahmad. (Company-level, sales-focused.)
+- **Shirin AM** — former Sr. Executive HR at Wibmo (Nov 2017–Dec 2021); posted "Director Engineering" at Wibmo on Cutshort. Now Deputy Manager TA at Paytm/Odessa. (Historical company-level recruiter evidence.)
+- **Rakesh Ranjan / Zyoin Group** — co-founder & COO; posted "Director of Engineering" at Wibmo via Zyoin on Cutshort (25 Nov 2020). LinkedIn: https://linkedin.com/in/rakeshranjanzyoin. (Agency recruiter; vacancy-specific linkage to the Adzuna ID unconfirmed.)
+- **divya Barathi** — listed as Wibmo team member on Cutshort; no public email/LinkedIn found. (Limited evidence.)
+
+## Official company careers & contact info
+- Careers: https://www.wibmo.co/careers ; footer "Discover Jobs" on https://wibmo.com
+- Contact form: https://wibmo.com/contact/ and https://wibmo.com/contact-us (no direct email on page)
+- Wibmo LinkedIn: https://www.linkedin.com/company/wibmo
+- PayU careers (Wibmo roles): https://careers.payu.in
+- Accel Wibmo board: https://jobs.accel.com/companies/wibmo-2
+
+## Publicly published professional email addresses
+| Email | Source URL | Supporting excerpt | Evidence date | Evidence type | Vacancy relevance | Confidence | Classification |
+|---|---|---|---|---|---|---|---|
+| sales@wibmo.com | https://wibmo.com/blogs/beyond-otps-why-indias-new-biometric-authentication-standards-are-the-future-of-digital-payments/ ; https://wibmo.com/blogs/wp-content/uploads/2026/03/Brochure_RBA.pdf | "To know more, write to us at sales@wibmo.com." / "Email: sales@wibmo.com" | 2026-02-09 (blog); 2026-03-13 (brochure) | Official company blog/brochure | ADJACENT (general sales contact) | High | ADJACENT |
+| pr@wibmo.com | https://www.prnewswire.com/in/news-releases/wibmo-inc-launches-wibmo-one-step-authentication-and-payment-solution-for-online-and-mobile-payments-591838811.html | "For further details please contact: sales@Wibmo.com or pr@Wibmo.com." | 2016-08-31 | Press release | ADJACENT (PR contact) | High | ADJACENT |
+| pkumar@wibmo.co | https://contactout.com/Prabhat-Kumar-326573457 | "To contact Prabhat Kumar send an email to p.kumar343.pk@gmail.com or pkumar@wibmo.co." | Page states most updated found in 2025 | Third-party contact aggregator | ADJACENT (TA Manager; not tied to this vacancy) | Medium | ADJACENT |
+| p.kumar343.pk@gmail.com | https://contactout.com/Prabhat-Kumar-326573457 | Same as above | Page states most updated found in 2025 | Third-party contact aggregator | ADJACENT (personal email of TA Manager) | Medium | ADJACENT |
+| rakesh@zyoin.com | https://contactout.com/Rakesh-Ranjan-40394065 | "To contact Rakesh Ranjan send...[truncated]

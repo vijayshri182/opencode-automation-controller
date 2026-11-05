@@ -1,0 +1,55 @@
+{
+  "project_url": "https://chatgpt.com/g/g-p-6ae87c1e48b08191a2cd33139c40639f/project",
+  "http_probes": {
+    "http://127.0.0.1:9224": {
+      "reachable": false,
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+    },
+    "http://127.0.0.1:9222": {
+      "reachable": false,
+      "error": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+    }
+  },
+  "attach_attempts": [
+    {
+      "ok": false,
+      "reason": "cdp_connect_failed",
+      "error": "Error: BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9224\nCall log:\n  - <ws preparing> retrieving websocket url from http://127.0.0.1:9224\n",
+      "cdp_url": "http://127.0.0.1:9224",
+      "project_url": "https://chatgpt.com/g/g-p-6ae87c1e48b08191a2cd33139c40639f/project",
+      "attached_to_existing_browser": false,
+      "launched_new_browser": false,
+      "contexts": 0,
+      "tabs": [],
+      "selected": null,
+      "navigated": false,
+      "navigation_url": "",
+      "project_verified": false,
+      "authenticated": false,
+      "conversation_list_rendered": false,
+      "conversation_links": 0,
+      "playwright_owned": true
+    },
+    {
+      "ok": false,
+      "reason": "cdp_connect_failed",
+      "error": "Error: BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9222\nCall log:\n  - <ws preparing> retrieving websocket url from http://127.0.0.1:9222\n",
+      "cdp_url": "http://127.0.0.1:9222",
+      "project_url": "https://chatgpt.com/g/g-p-6ae87c1e48b08191a2cd33139c40639f/project",
+      "attached_to_existing_browser": false,
+      "launched_new_browser": false,
+      "contexts": 0,
+      "tabs": [],
+      "selected": null,
+      "navigated": false,
+      "navigation_url": "",
+      "project_verified": false,
+      "authenticated": false,
+      "conversation_list_rendered": false,
+      "conversation_links": 0,
+      "playwright_owned": true
+    }
+  ],
+  "launched_new_browser": false,
+  "verdict": "BLOCKED_CDP_UNREACHABLE"
+}

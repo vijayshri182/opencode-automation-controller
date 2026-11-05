@@ -1,0 +1,15 @@
+{
+  "verified": {
+    "clicked_projects": false,
+    "clicked_palmistry": true,
+    "clicked_conv": true,
+    "found_by": "conv_id_in_href",
+    "conv_id_in_url": true,
+    "conv_id_in_content": true,
+    "conv_title_in_content": true,
+    "composer_available": true,
+    "auth": true
+  },
+  "final_url": "https://chatgpt.com/g/g-p-6ae87c1e48b08191a2cd33139c40639f-palmistry-project/c/6ae87c0a-10c8-83ee-a666-c3a5cfea6521",
+  "final_title": "Project Test"
+}

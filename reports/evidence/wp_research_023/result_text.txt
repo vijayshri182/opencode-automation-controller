@@ -1,0 +1,21 @@
+## Job listing
+
+- **Original job listing URL:** https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885
+- **Platform job ID:** 4474132885 (LinkedIn)
+- **Job title:** Director - Product Management (NGAGE CPaaS)
+- **Company:** Comviva (Comviva Technologies Limited)
+- **Location:** Bengaluru, Karnataka, India (on-site)
+- **Posting date:** LinkedIn public page shows "1 month ago" (relative; exact calendar date not publicly displayed). JobLeads aggregator structured data (`datePosted`) shows 2026-10-14; `validThrough` 2026-11-13. Treat as approximate/unverified.
+- **Other public listing attributes:** Seniority Director; Employment type Full-time; Industry Software Development; 132 applicants (LinkedIn); salary not shown on LinkedIn. JobLeads reports INR 400,000–700,000 (likely aggregator artifact; inconsistent with Comviva's other Director PM listing at INR 4,000,000–7,000,000 — unverified).
+
+## Recruiter / talent contacts (publicly evidenced)
+
+No recruiter is named on the public LinkedIn job page, and no contact is directly tied to job ID 4474132885. All contacts below are **ADJACENT/UNCONFIRMED** (Comviva TA/product leadership), not vacancy-specific.
+
+| Name | Designation | Company | Profile URL | Public professional email (directly supported?) | Source URL | Supporting excerpt | Evidence date | Evidence type | Vacancy relevance | Confidence / limitations |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Bharti Choudhary | Talent Acquisition Manager | Comviva | https://linkedin.com/in/bhartichoudhary | bharti.choudhary1@comviva.com (directly supported by her own LinkedIn posts) | https://linkedin.com/in/bhartichoudhary ; https://humantic.ai/public-profile/bharti-choudhary-ddaa15bf63897636 | "Share profile at bharti.choudhary1@comviva.com"; Humantic: "Frequently posts about and recruits for senior-level and strategic roles at Comviva, including Directors and Heads" | Posts ~1–7 months ago (relative; exact dates not captured) | Self-published LinkedIn posts + third-party profile | ADJACENT | Medium — TA manager who recruits senior/strategic roles incl. Directors, incl. CPaaS presales/product-adjacent roles; no post specifically for this vacancy |
+| Puja Kumari | Talent Acquisition Lead | Comviva (Tech Mahindra company) | https://linkedin.com/in/puja-kumari-12281a45 | Not publicly evidenced | https://linkedin.com/in/puja-kumari-12281a45 | "As the Talent Acquisition Lead at Comviva-A Tech Mahindra Company, I am responsible for…" | Posts ~3 months ago (relative) | Self-published LinkedIn profile/posts | ADJACENT | Medium — no email publicly evidenced; no direct tie to vacancy |
+| Sweta Pandey | Talent Acquisition Executive | Comviva | https://linkedin.com/in/Sweta-pandey-a61a01238 | sweta.pandey2@comviva.com (directly supported by her own LinkedIn post); Unifers also shows sweta.pandey@comviva.com | https://linkedin.com/in/Sweta-pandey-a61a01238 ; https://unifers.ai/person/sweta-pandey-a61a01238/... | "Interested candidates can DM me or share their CV at sweta.pandey2@comviva.com" | Post ~2 months ago (relative) | Self-published LinkedIn post + third-party aggregator | ADJACENT | Medium — posts hiring for BD/EA roles; not this vacancy; second email from aggregator |
+| Amisha Pandey | Technical Recruiter | Comviva | https://linkedin.com/in/ (profile referenced via ContactOut/RocketReach; URL not captured) | amisha.pandey@comviva.com (aggregator-stated, not self-published); also amishabkk@gmail.com, amisha.pandey@gmail.com | https://contactout.com/amisha-pandey-73840 ; https://rocketreach.co/amisha-pandey-email_122254401 | ContactOut: "To contact Amisha Pandey send an email to … amisha.pandey@comviva.com" | Profile last verified July 2026 | Third-party aggregator | ADJACENT/UNCONFIRMED | Medium-low — email from aggregator, not self-published; not vacancy-specific |
+| Anam Khan | Assistant Manager Talent Acquisition | Comviva (Tech Mahindra company) | Not captured | anam.khan@comviva.com (directly supported via Bharti Choudhary's post) | https://linkedin.com/in/bhartichoudhary | "Please apply...[truncated]

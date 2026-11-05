@@ -1,0 +1,206 @@
+[
+  {
+    "run": "TEST-RESEARCH-ISOLATION-002_flint",
+    "label": "flint-text-only",
+    "endpoint": "http://127.0.0.1:4098",
+    "agent_requested": "research",
+    "tools_requested": {
+      "websearch": true,
+      "webfetch": true,
+      "bash": false,
+      "write": false,
+      "edit": false,
+      "read": false,
+      "glob": false,
+      "grep": false,
+      "list": false,
+      "task": false,
+      "todowrite": false
+    },
+    "model_requested": {
+      "providerID": "opencode",
+      "modelID": "flint-40b-free"
+    },
+    "prompt": "Reply with exactly: FLINT_TEXT_OK",
+    "session_id": "ses_e5d63ed27ffeZg5LMEJC2OX453",
+    "session_agent_field": "research",
+    "submitted": true,
+    "elapsed_s": 93.28,
+    "polls": 23,
+    "final_text": "",
+    "empty_output": true,
+    "timed_out": true,
+    "messages": [
+      {
+        "role": "user",
+        "agent": "research",
+        "providerID": null,
+        "modelID": null,
+        "tokens": null,
+        "cost": null,
+        "error": null,
+        "parts": [
+          {
+            "type": "text",
+            "text": "Reply with exactly: FLINT_TEXT_OK"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode",
+        "modelID": "flint-40b-free",
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": []
+      }
+    ],
+    "tool_calls": []
+  },
+  {
+    "run": "TEST-RESEARCH-ISOLATION-002_flint",
+    "label": "flint-websearch",
+    "endpoint": "http://127.0.0.1:4098",
+    "agent_requested": "research",
+    "tools_requested": {
+      "websearch": true,
+      "webfetch": true,
+      "bash": false,
+      "write": false,
+      "edit": false,
+      "read": false,
+      "glob": false,
+      "grep": false,
+      "list": false,
+      "task": false,
+      "todowrite": false
+    },
+    "model_requested": {
+      "providerID": "opencode",
+      "modelID": "flint-40b-free"
+    },
+    "prompt": "Use the websearch tool to search for: OpenCode AI documentation. Then report the top result title and its URL. Use only the websearch tool.",
+    "session_id": "ses_e5d6280d9ffeCWp9j8d6oRjj0s",
+    "session_agent_field": "research",
+    "submitted": true,
+    "elapsed_s": 181.74,
+    "polls": 45,
+    "final_text": "",
+    "empty_output": true,
+    "timed_out": true,
+    "messages": [
+      {
+        "role": "user",
+        "agent": "research",
+        "providerID": null,
+        "modelID": null,
+        "tokens": null,
+        "cost": null,
+        "error": null,
+        "parts": [
+          {
+            "type": "text",
+            "text": "Use the websearch tool to search for: OpenCode AI documentation. Then report the top result title and its URL. Use only the websearch tool."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode",
+        "modelID": "flint-40b-free",
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": []
+      }
+    ],
+    "tool_calls": []
+  },
+  {
+    "run": "TEST-RESEARCH-ISOLATION-002_flint",
+    "label": "flint-webfetch",
+    "endpoint": "http://127.0.0.1:4098",
+    "agent_requested": "research",
+    "tools_requested": {
+      "websearch": true,
+      "webfetch": true,
+      "bash": false,
+      "write": false,
+      "edit": false,
+      "read": false,
+      "glob": false,
+      "grep": false,
+      "list": false,
+      "task": false,
+      "todowrite": false
+    },
+    "model_requested": {
+      "providerID": "opencode",
+      "modelID": "flint-40b-free"
+    },
+    "prompt": "Use the webfetch tool to retrieve https://opencode.ai and report the page title and a short description. Use only the webfetch tool.",
+    "session_id": "ses_e5d5fbb0cffehjRVVHecERCwEh",
+    "session_agent_field": "research",
+    "submitted": true,
+    "elapsed_s": 92.91,
+    "polls": 23,
+    "final_text": "",
+    "empty_output": true,
+    "timed_out": true,
+    "messages": [
+      {
+        "role": "user",
+        "agent": "research",
+        "providerID": null,
+        "modelID": null,
+        "tokens": null,
+        "cost": null,
+        "error": null,
+        "parts": [
+          {
+            "type": "text",
+            "text": "Use the webfetch tool to retrieve https://opencode.ai and report the page title and a short description. Use only the webfetch tool."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode",
+        "modelID": "flint-40b-free",
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": []
+      }
+    ],
+    "tool_calls": []
+  }
+]

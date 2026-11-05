@@ -1,0 +1,37 @@
+﻿**Original listing / IDs**
+- Original job listing URL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885
+- Platform job ID: LinkedIn `4474132885`; Jobleads aggregator ID `eadbca7af701cd8a71a39a489a7f8be1f` (https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f)
+- No Comviva-owned career-portal job ID found (unavailable)
+
+**Job details**
+- Title: Director - Product Management (NGAGE CPaaS)
+- Company: Comviva (Comviva Technologies Limited)
+- Location: Bengaluru, Karnataka, India (on-site)
+- Posting date: Jobleads schema `datePosted: 2026-10-21`, `validThrough: 2026-11-13`; LinkedIn shows relative “3 weeks ago”/“1 month ago” (inconsistent across captures); exact single posting date unavailable/ambiguous
+- Salary (Jobleads only): INR 400,000–700,000/year
+- Seniority/Type/Industry: Director; Full-time; Software Development
+
+**Recruiter contacts (Comviva Talent Acquisition)**
+- Bharti Choudhary — Talent Acquisition Manager, Comviva. Email: `bharti.choudhary1@comviva.com` (source: LinkedIn post; excerpt “Email resume @ bharti.choudhary1@comviva.com”). Adjacent evidence only: posted Enterprise Presales Consultant (CPaaS) and tagged Tarun Arora; not direct evidence for this role.
+- Anam Khan — Assistant Manager Talent Acquisition, Comviva. Email: `anam.khan@comviva.com` (source: LinkedIn hiring posts; excerpt “share their updated resume at: Anam.khan@comviva.com”). Adjacent evidence only.
+- Puja Kumari — Talent Acquisition Lead/Senior Manager, Comviva. Email: `puja.kumari@comviva.com` (source: LinkedIn posts; excerpt “Share your CV at puja.kumari@comviva.com”). Adjacent evidence only.
+- Sabyasachi Goswami — Director Talent Acquisition, Comviva. No Comviva email directly evidenced; posts cite `sabyasachi.goswami@netcracker.com` (prior employer) — mark unavailable for Comviva.
+- Garima Tripathi, Jaishree Y, Shreshtha Nagar — listed in Comviva TA team (The Org); no public emails found.
+
+**Historical (not current) recruiter contact**
+- Venkat A — former TA Specialist at Comviva (Aug 2021–Jun 2022). Email `venkata.a@comviva.com` appears in 2022 post only; treat as historical/outdated.
+
+**General product/leadership contacts (not recruiters)**
+- Tarun Arora — VP Product Management, NGAGE/CPaaS (LinkedIn: https://linkedin.com/in/tarunarora1984). No public email evidenced.
+- Deshbandhu Bansal — COO, RevTech (source: Comviva event/press pages). No public email evidenced.
+- Aishwarya Patil — Senior Product Manager, CPaaS & Network API Platform (LinkedIn: https://linkedin.com/in/productmanageraishwaryapatil). No public email evidenced.
+- Ravi Shankar — VP, Global Head of Business Development (LinkedIn post source). No public email evidenced.
+- Jiwateshwar Singh — Head of Product Management (Comviva leadership page). No public email evidenced.
+- Jens Voigt — Head of Product Management, BlueMarble (Comviva leadership page). No public email evidenced.
+
+**Sources / excerpts**
+- LinkedIn listing: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885 — “1 month ago 132 applicants”; job description and qualifications as quoted.
+- Jobleads: https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f — schema `datePosted: 2026-10-21`, salary INR 400,000–700,000.
+- Comviva NGAGE product page: https://www.comviva.com/products-solutions/revtech/communication-platform-as-a-service/ — NGAGE CPaaS description.
+- Comviva leadership/press pages for Tarun Arora, Deshbandhu Bansal, Jiwateshwar Singh, Jens Voigt.
+- Comviva TA roster: https://theorg.com/org/comviva/teams/talent-acquisition.

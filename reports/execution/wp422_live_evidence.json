@@ -1,0 +1,48 @@
+{
+  "generated_at_local": "2026-11-02T21:05:58",
+  "cdp_url": "http://127.0.0.1:9224",
+  "user_data_dir": "C:\\Users\\user\\AppData\\Local\\Microsoft\\Edge\\User Data",
+  "user_data_dir_exists": true,
+  "devtools_active_port": {
+    "ok": false,
+    "reason": "devtools_active_port_absent",
+    "ws_endpoint": "",
+    "port": null
+  },
+  "port_probe": {
+    "9222": "TimeoutError: timed out",
+    "9223": "TimeoutError: timed out",
+    "9224": "TimeoutError: timed out",
+    "9225": "TimeoutError: timed out",
+    "9226": "TimeoutError: timed out"
+  },
+  "attach_result": {
+    "ok": false,
+    "reason": "cdp_connect_failed",
+    "error": "http://127.0.0.1:9224 -> Error: BrowserType.connect_over_cdp: connect ECONNREFUSED 127.0.0.1:9224\nCall log:\n  - <ws preparing> retrieving websocket url from http://127.0.0.1:9224\n",
+    "cdp_url": "http://127.0.0.1:9224",
+    "project_url": "https://chatgpt.com/g/g-p-6ae87c1e48b08191a2cd33139c40639f/project",
+    "discovery": "http",
+    "attempted_endpoints": [
+      "http://127.0.0.1:9224"
+    ],
+    "attached_to_existing_browser": false,
+    "launched_new_browser": false,
+    "contexts": 0,
+    "tabs": [],
+    "selected": null,
+    "navigated": false,
+    "navigation_url": "",
+    "project_verified": false,
+    "authenticated": false,
+    "conversation_list_rendered": false,
+    "conversation_links": 0,
+    "playwright_owned": true,
+    "devtools_active_port": {
+      "ok": false,
+      "reason": "devtools_active_port_absent",
+      "ws_endpoint": "",
+      "port": null
+    }
+  }
+}

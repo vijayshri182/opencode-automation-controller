@@ -1,0 +1,1195 @@
+[
+  {
+    "run": "WP-RESEARCH-009",
+    "label": "wp009-text-only",
+    "endpoint": "http://127.0.0.1:4098",
+    "agent_requested": "research",
+    "tools_requested": {
+      "websearch": true,
+      "webfetch": true,
+      "bash": false,
+      "write": false,
+      "edit": false,
+      "read": false,
+      "glob": false,
+      "grep": false,
+      "list": false,
+      "task": false,
+      "todowrite": false
+    },
+    "model_requested": {
+      "providerID": "opencode-go",
+      "modelID": "beam-free"
+    },
+    "prompt": "Reply with exactly: WP9_TEXT_OK",
+    "session_id": "ses_e5b00d2bbffeoKjvsngM2PHudW",
+    "session_agent_field": "research",
+    "submitted": true,
+    "elapsed_s": 4.13,
+    "polls": 1,
+    "final_text": "WP9_TEXT_OK",
+    "empty_output": false,
+    "timed_out": false,
+    "messages": [
+      {
+        "role": "user",
+        "agent": "research",
+        "providerID": null,
+        "modelID": null,
+        "tokens": null,
+        "cost": null,
+        "error": null,
+        "parts": [
+          {
+            "type": "text",
+            "text": "Reply with exactly: WP9_TEXT_OK"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 3433,
+          "input": 1546,
+          "output": 5,
+          "reasoning": 26,
+          "cache": {
+            "read": 1856,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "text",
+            "text": "WP9_TEXT_OK"
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      }
+    ],
+    "tool_calls": [],
+    "assistant_tokens": {
+      "total": 3433,
+      "input": 1546,
+      "output": 5,
+      "reasoning": 26,
+      "cache": {
+        "read": 1856,
+        "write": 0
+      }
+    },
+    "assistant_error": null
+  },
+  {
+    "run": "WP-RESEARCH-009",
+    "label": "wp009-webresearch",
+    "endpoint": "http://127.0.0.1:4098",
+    "agent_requested": "research",
+    "tools_requested": {
+      "websearch": true,
+      "webfetch": true,
+      "bash": false,
+      "write": false,
+      "edit": false,
+      "read": false,
+      "glob": false,
+      "grep": false,
+      "list": false,
+      "task": false,
+      "todowrite": false
+    },
+    "model_requested": {
+      "providerID": "opencode-go",
+      "modelID": "beam-free"
+    },
+    "prompt": "Research the publicly available Comviva Director - Product Management (NGAGE CPaaS) opening in Bengaluru. Use websearch and webfetch. Return: original job listing URL and platform job ID if available; job title, company, location, posting date; publicly evidenced recruiter contacts relevant to this role; public professional email addresses only when directly supported by sources; source URLs and concise supporting excerpts; distinguish recruiters from general product/leadership contacts; mark unavailable information explicitly; never guess email addresses.",
+    "session_id": "ses_e5b00c2b1ffeMcLj92II22iLuq",
+    "session_agent_field": "research",
+    "submitted": true,
+    "elapsed_s": 109.36,
+    "polls": 27,
+    "final_text": "**Original listing / IDs**\n- Original job listing URL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885\n- Platform job ID: LinkedIn `4474132885`; Jobleads aggregator ID `eadbca7af701cd8a71a39a489a7f8be1f` (https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f)\n- No Comviva-owned career-portal job ID found (unavailable)\n\n**Job details**\n- Title: Director - Product Management (NGAGE CPaaS)\n- Company: Comviva (Comviva Technologies Limited)\n- Location: Bengaluru, Karnataka, India (on-site)\n- Posting date: Jobleads schema `datePosted: 2026-10-21`, `validThrough: 2026-11-13`; LinkedIn shows relative \u201c3 weeks ago\u201d/\u201c1 month ago\u201d (inconsistent across captures); exact single posting date unavailable/ambiguous\n- Salary (Jobleads only): INR 400,000\u2013700,000/year\n- Seniority/Type/Industry: Director; Full-time; Software Development\n\n**Recruiter contacts (Comviva Talent Acquisition)**\n- Bharti Choudhary \u2014 Talent Acquisition Manager, Comviva. Email: `bharti.choudhary1@comviva.com` (source: LinkedIn post; excerpt \u201cEmail resume @ bharti.choudhary1@comviva.com\u201d). Adjacent evidence only: posted Enterprise Presales Consultant (CPaaS) and tagged Tarun Arora; not direct evidence for this role.\n- Anam Khan \u2014 Assistant Manager Talent Acquisition, Comviva. Email: `anam.khan@comviva.com` (source: LinkedIn hiring posts; excerpt \u201cshare their updated resume at: Anam.khan@comviva.com\u201d). Adjacent evidence only.\n- Puja Kumari \u2014 Talent Acquisition Lead/Senior Manager, Comviva. Email: `puja.kumari@comviva.com` (source: LinkedIn posts; excerpt \u201cShare your CV at puja.kumari@comviva.com\u201d). Adjacent evidence only.\n- Sabyasachi Goswami \u2014 Director Talent Acquisition, Comviva. No Comviva email directly evidenced; posts cite `sabyasachi.goswami@netcracker.com` (prior employer) \u2014 mark unavailable for Comviva.\n- Garima Tripathi, Jaishree Y, Shreshtha Nagar \u2014 listed in Comviva TA team (The Org); no public emails found.\n\n**Historical (not current) recruiter contact**\n- Venkat A \u2014 former TA Specialist at Comviva (Aug 2021\u2013Jun 2022). Email `venkata.a@comviva.com` appears in 2022 post only; treat as historical/outdated.\n\n**General product/leadership contacts (not recruiters)**\n- Tarun Arora \u2014 VP Product Management, NGAGE/CPaaS (LinkedIn: https://linkedin.com/in/tarunarora1984). No public email evidenced.\n- Deshbandhu Bansal \u2014 COO, RevTech (source: Comviva event/press pages). No public email evidenced.\n- Aishwarya Patil \u2014 Senior Product Manager, CPaaS & Network API Platform (LinkedIn: https://linkedin.com/in/productmanageraishwaryapatil). No public email evidenced.\n- Ravi Shankar \u2014 VP, Global Head of Business Development (LinkedIn post source). No public email evidenced.\n- Jiwateshwar Singh \u2014 Head of Product Management (Comviva leadership page). No public email evidenced.\n- Jens Voigt \u2014 Head of Product Management, BlueMarble (Comviva leadership page). No public email evidenced.\n\n**Sources / excerpts**\n- LinkedIn listing: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885 \u2014 \u201c1 month ago 132 applicants\u201d; job description and qualifications as quoted.\n- Jobleads: https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f \u2014 schema `datePosted: 2026-10-21`, salary INR 400,000\u2013700,000.\n- Comviva NGAGE product page: https://www.comviva.com/products-solutions/revtech/communication-platform-as-a-service/ \u2014 NGAGE CPaaS description.\n- Comviva leadership/press pages for Tarun Arora, Deshbandhu Bansal, Jiwateshwar Singh, Jens Voigt.\n- Comviva TA roster: https://theorg.com/org/comviva/teams/talent-acquisition.",
+    "empty_output": false,
+    "timed_out": false,
+    "messages": [
+      {
+        "role": "user",
+        "agent": "research",
+        "providerID": null,
+        "modelID": null,
+        "tokens": null,
+        "cost": null,
+        "error": null,
+        "parts": [
+          {
+            "type": "text",
+            "text": "Research the publicly available Comviva Director - Product Management (NGAGE CPaaS) opening in Bengaluru. Use websearch and webfetch. Return: original job listing URL and platform job ID if available; job title, company, location, posting date; publicly evidenced recruiter contacts relevant to this role; public professional email addresses only when directly supported by sources; source URLs and concise supporting excerpts; distinguish recruiters from general product/leadership contacts; mark unavailable information explicitly; never guess email addresses."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 3587,
+          "input": 1637,
+          "output": 40,
+          "reasoning": 54,
+          "cache": {
+            "read": 1856,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-31e1b81c-d4e2-4b47-b500-2a27f8d29870",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "Comviva \"Director - Product Management\" \"NGAGE CPaaS\" Bengaluru job"
+            },
+            "output": "Title: Director - Product Management (NGAGE CPaaS) at Comviva\nURL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885\nPublished: N/A\nAuthor: N/A\nHighlights:\nDirector - Product Management (NGAGE CPaaS) at Comviva \u2014 Bengaluru, Karnataka, India | LinkedIn Jobs\n\n \n\n# Director - Product Management (NGAGE CPaaS)\n\n Comviva Bengaluru, Karnataka, India \n\n 3 weeks ago 119 applicants \n\nKey Responsibilities Product Strategy & Roadmap \n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS \n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video) \n- Prioritize features based on market demand, revenue impact, and competitive positioning \n- Align roadmap with enterprise customer needs across key verticals (BFSI, Retail, Logistics) \n\nAI & Platform Innovation \n\nLead AI infusion across the platform:\n\n- Conversational AI (LLM-powered chatbots, copilots) \n- Intelligent routing & optimization \n- Personalization and campaign automation \n\nDrive integration of GenAI into developer and customer workflows \n\nBuild differentiated capabilities vs competitors (e.g., Twilio, Sinch, Infobip) \n\nProduct Execution & Deliver \n\n- Work closely with engineering to deliver scalable, reliable, and secure platform capabilities \n- Define product requirements (PRDs), success metrics, and GTM readiness \n- Ensure high availability, performance, and compliance (SLA, NFRs, security) \n\nTeam Leadership \n\n- Build and lead a high-performing product team (PMs, APMs) \n- Mentor team on product thinking, execution rigor, and customer obsession \n- Foster a culture of ownership, speed, and innovation \n\nCustomer & Ecosystem Engagement \n\n- Engage with key enterprise customers and partners (telcos, aggregators, OTT platforms) \n- Gather insights to improve product stickiness and reduce churn \n- Drive partnerships across messaging ecosystems (WABA, RBM, etc.) \n\nBusiness Impact \n\n- Own product KPIs: adoption, revenue growth, marg",
+            "error": null,
+            "title": "Exa Web Search: Comviva \"Director - Product Management\" \"NGAGE CPaaS\" Bengaluru job"
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 6637,
+          "input": 4657,
+          "output": 46,
+          "reasoning": 78,
+          "cache": {
+            "read": 1856,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "tool",
+            "tool": "webfetch",
+            "callID": "call-ecbee8b8-7ef3-40c4-9a4a-c28745308cf7",
+            "status": "completed",
+            "input": {
+              "url": "https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885"
+            },
+            "output": "               Director - Product Management (NGAGE CPaaS) at Comviva \u2014 Bengaluru, Karnataka, India | LinkedIn Jobs                            [Skip to main content](#main-content)\n\n[LinkedIn](/?trk=public_jobs_nav-header-logo)\n\nDirector - Product Management (NGAGE CPaaS) in Bengaluru\n\nExpand search\n\nThis button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.\n\n-   Jobs\n-   People\n-   Learning\n\n Clear text\n\n Clear text\n\n \n\nClear text\n\n \n\nClear text\n\n \n\n Clear text\n\n \n\n[Sign in](https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fin.linkedin.com%2Fjobs%2Fview%2Fdirector-product-management-ngage-cpaas-at-comviva-4474132885&trk=public_jobs_nav-header-signin) [Join now](https://www.linkedin.com/signup/cold-join?source=jobs_registration&session_redirect=https%3A%2F%2Fin.linkedin.com%2Fjobs%2Fview%2Fdirector-product-management-ngage-cpaas-at-comviva-4474132885&trk=public_jobs_nav-header-join) [](https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fin.linkedin.com%2Fjobs%2Fview%2Fdirector-product-management-ngage-cpaas-at-comviva-4474132885&trk=public_jobs_nav-header-signin)\n\n### Director - Product Management (NGAGE CPaaS)\n\n[Comviva](https://in.linkedin.com/company/comviva?trk=public_jobs_sub-nav-cta-optional-url \"Comviva\") Bengaluru, Karnataka, India\n\nApply\n\n## Join or sign in to find your next job\n\nJoin to apply for the **Director - Product Management (NGAGE CPaaS)** role at **Comviva**\n\nEmail or phone\n\nPassword\n\n Show\n\n \n\n[Forgot password?](https://www.linkedin.com/uas/request-password-reset?trk=csm-v2_forgot_password)  Sign in\n\nSign in with Email\n\nor\n\nNew to LinkedIn? [Join now](https://www.linkedin.com/signup/cold-join?source=jobs_registration&session_redirect=https%3A%2F%2Fin.linkedin.com%2Fjobs%2Fview%2Fdirector-product-management-ngage-cpaas-at-comviva",
+            "error": null,
+            "title": "https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885 (text/html; charset=utf-8)"
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 18837,
+          "input": 16799,
+          "output": 46,
+          "reasoning": 136,
+          "cache": {
+            "read": 1856,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-7278dc33-db5c-4d91-af65-9047963cd833",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "Comviva \"Director Product Management\" \"NGAGE CPaaS\" recruiter talent acquisition Bengaluru"
+            },
+            "output": "Title: Director - Product Management (NGAGE CPaaS)\nURL: https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f\nPublished: N/A\nAuthor: N/A\nHighlights:\nI\u2019m interested\n\n# Director - Product Management (NGAGE CPaaS)\n\n## Comviva\n\n## Bengaluru\n\n## On-site\n\n## INR 400,000 - 700,000\n\n## Full time\n\n10 days ago\n\nA complete application in a minute\n\nTailored resume and cover letter, ready to send.\n\nGet past ATS filters\n\nGenerate application\n\n### Job summary\n\nComviva is seeking an experienced Product Leader to define the vision and multi-year roadmap for Ngage CPaaS, focusing on growth across channels like SMS, WhatsApp, and Voice. You will prioritize features based on market demand, revenue impact, and competitive positioning, aligning the roadmap with enterprise customer needs across BFSI, Retail, and Logistics.\n\nLead AI infusion across the platform, including conversational AI, personalization, and GenAI integrations, while guiding the product\n\n### Qualifications\n\n- 10\u201315 years in product management, with strong experience in CPaaS / Communications / SaaS platforms.\n- Proven experience working with or at companies like Twilio, Sinch, Infobip, or similar ecosystems.\n- Deep understanding of messaging channels (SMS, WhatsApp, RBM, Voice APIs).\n- Experience in building platform products and APIs at scale.\n- Strong exposure to AI/ML or GenAI-led product innovations.\n- Demonstrated ability to lead teams and influence cross-functional stakeholders.\n\n### Responsibilities\n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS.\n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video).\n- Prioritize features based on market demand, revenue impact, and competitive positioning.\n\n### Skills\n\nCPaaS / SaaS\n\nPlatform products & APIs\n\nAI/GenAI innovations\n\nLeadership & cross-functional\n\nEnterprise engagement\n\n## Job description\n\n- Define and drive the product vision and multi-y",
+            "error": null,
+            "title": "Exa Web Search: Comviva \"Director Product Management\" \"NGAGE CPaaS\" recruiter talent acquisition Bengaluru"
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 22459,
+          "input": 3661,
+          "output": 87,
+          "reasoning": 87,
+          "cache": {
+            "read": 18624,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-b71c9794-9923-47c3-8973-1cbb082e4742",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "Comviva recruiter \"talent acquisition\" product management Bengaluru LinkedIn email"
+            },
+            "output": "Title: \ud83d\ude80 Hiring | AI Engineer | Anam Khan\nURL: https://www.linkedin.com/posts/anam-khan-50b60418a_hiring-aiengineer-generativeai-activity-7471172983881887744-qgRy\nPublished: 2026-06-12T00:00:00.000Z\nAuthor: Anam Khan\nHighlights:\n# \ud83d\ude80 Hiring | AI Engineer | Anam Khan \u00b7 LinkedIn \u00b7 2026-06-12T00:00:00+00:00\n\n**Anam Khan**: Assistant manager Talent Acquisition.\n\n---\n\n\ud83d\ude80 Hiring | AI Engineer\n\ud83d\udccd Location: Gurgaon / Bangalore\n\ud83d\udcc5 Experience: 4\u20138 Years\nWe are looking for passionate AI Engineers to build next-generation AI-powered assistants, copilots, and intelligent automation solutions for enterprise MarTech products.\n\ud83d\udd39 Strong experience with Generative AI, LLMs, RAG, Prompt Engineering, Embeddings, Semantic Search, and Vector Databases.\n\ud83d\udd39 Hands-on expertise in Python, APIs, Microservices, Cloud Platforms (AWS/Azure/GCP), and enterprise application integration.\n\ud83d\udd39 Experience building AI Assistants, Copilots, Chatbots, or Agent-based applications.\n\ud83d\udd39 Familiarity with LangChain, LangGraph, LlamaIndex, Semantic Kernel, CrewAI, AutoGen, or similar AI frameworks is preferred.\n\ud83d\udd39 Exposure to Telecom, MarTech, Loyalty, Customer Engagement, Analytics, or Customer Data Platforms will be an added advantage.\nJoin us to build scalable AI solutions that create real business impact and shape the future of enterprise software.\n\ud83d\udce7 Interested candidates can share their updated resume at: Anam.khan@comviva.com\n#Hiring #AIEngineer #GenerativeAI #LLM #AgenticAI #RAG #PromptEngineering #Python #MachineLearning #ArtificialIntelligence #LangChain #LLMOps #CloudEngineering #MarTech #Telecom #ProductEngineering #Comviva #NowHiring\n\n---\n\nTitle: anam khan\nURL: https://linkedin.com/in/anam-khan-50b60418a\nPublished: 2026-10-24T03:52:20.000Z\nAuthor: N/A\nHighlights:\n# Anam Khan\n\nAssistant manager Talent Acquisition\n\nNoida, Uttar Pradesh, India (IN)\n\n500 connections \u2022 2,399 followers\n\n## About\n\nAssistant manager Talent Acquisition\n\nTotal Experience: 9 years and 5 months\n\n## Experience\n\n### Assistant Manager Tale",
+            "error": null,
+            "title": "Exa Web Search: Comviva recruiter \"talent acquisition\" product management Bengaluru LinkedIn email"
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-6d2af036-5266-4b58-b02b-04cc2d767265",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "site:naukri.com Comviva \"Director Product Management\" \"NGAGE CPaaS\""
+            },
+            "output": "Title: Principal PM, MobiLytix Modernisation - New Delhi - Comviva Technology - 10 to 15 years of experience - Naukri.com\nURL: https://www.naukri.com/job-listings-principal-pm-mobilytix-modernisation-comviva-technologies-limited-new-delhi-10-to-15-years-040526500618\nPublished: N/A\nAuthor: N/A\nHighlights:\nPrincipal PM, MobiLytix Modernisation - New Delhi - Comviva Technology - 10 to 15 years of experience - Naukri.com\n\n# Principal PM, MobiLytix Modernisation\n\nComviva Technology\n\n2.7\n\n1.1K Reviews\n\n10 - 15 years\n\nNot Disclosed\n\nNew Delhi\n\nPosted: 3+ weeks ago Openings: 1 Applicants: 36 Continue with Google\n\nComviva Technology\n\n2.7\n\n1.1K Reviews\n\n## Job description\n\n Key Accountabilities \n\n- Lead the evolution of MobiLytix into a cross-industry, AI-native, real-time engagement platform. \n- Define and own the multi-year platform abstraction and extensibility strategy. \n- Govern AI capability coherence across ML Platform, Agentic Systems and Reporting & Analytics. \n- Define and drive the product direction for real-time, compute-to-data execution architecture. \n- Establish cross-module integration principles and prevent domain-specific coupling. \n- Arbitrate platform integrity versus module-level optimisation trade-offs. \n- Represent the AI-native platform vision in client workshops, analyst briefings and executive forums. \n- Align platform roadmap with commercial expansion priorities including CPG D2C. \n- Partner with Product Engineering leadership to align system architecture with long-term platform strategy. \n- Build and mentor senior product managers within the Modernisation portfolio. \n\n Mandatory Skills \n\n- 10+ years of enterprise SaaS product management experience. \n- Proven experience building or scaling complex platforms rather than isolated features. \n- Demonstrated experience defining platform abstraction or extensibility strategies across complex product ecosystems. \n- Strong conceptual understanding of AI/ML lifecycle principles, real-time inference models an",
+            "error": null,
+            "title": "Exa Web Search: site:naukri.com Comviva \"Director Product Management\" \"NGAGE CPaaS\""
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 34438,
+          "input": 30541,
+          "output": 80,
+          "reasoning": 361,
+          "cache": {
+            "read": 3456,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-cd0918d0-d903-4e3b-83f1-92f1c48e574b",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "Comviva \"Director - Product Management (NGAGE CPaaS)\" LinkedIn hiring post"
+            },
+            "output": "Title: Director - Product Management (NGAGE CPaaS)\nURL: https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f\nPublished: N/A\nAuthor: N/A\nHighlights:\nI\u2019m interested\n\n# Director - Product Management (NGAGE CPaaS)\n\n## Comviva\n\n## Bengaluru\n\n## On-site\n\n## INR 400,000 - 700,000\n\n## Full time\n\n10 days ago\n\nA complete application in a minute\n\nTailored resume and cover letter, ready to send.\n\nGet past ATS filters\n\nGenerate application\n\n### Job summary\n\nComviva is seeking an experienced Product Leader to define the vision and multi-year roadmap for Ngage CPaaS, focusing on growth across channels like SMS, WhatsApp, and Voice. You will prioritize features based on market demand, revenue impact, and competitive positioning, aligning the roadmap with enterprise customer needs across BFSI, Retail, and Logistics.\n\nLead AI infusion across the platform, including conversational AI, personalization, and GenAI integrations, while guiding the product\n\n### Qualifications\n\n- 10\u201315 years in product management, with strong experience in CPaaS / Communications / SaaS platforms.\n- Proven experience working with or at companies like Twilio, Sinch, Infobip, or similar ecosystems.\n- Deep understanding of messaging channels (SMS, WhatsApp, RBM, Voice APIs).\n- Experience in building platform products and APIs at scale.\n- Strong exposure to AI/ML or GenAI-led product innovations.\n- Demonstrated ability to lead teams and influence cross-functional stakeholders.\n\n### Responsibilities\n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS.\n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video).\n- Prioritize features based on market demand, revenue impact, and competitive positioning.\n\n### Skills\n\nCPaaS / SaaS\n\nPlatform products & APIs\n\nAI/GenAI innovations\n\nLeadership & cross-functional\n\nEnterprise engagement\n\n## Job description\n\n- Define and drive the product vision and multi-y",
+            "error": null,
+            "title": "Exa Web Search: Comviva \"Director - Product Management (NGAGE CPaaS)\" LinkedIn hiring post"
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-21179d3e-fb23-476e-a205-12a7d999b4cf",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "\"NGAGE CPaaS\" Comviva \"Director Product Management\" email contact"
+            },
+            "output": "Title: Director - Product Management (NGAGE CPaaS) at Comviva\nURL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885\nPublished: N/A\nAuthor: N/A\nHighlights:\nDirector - Product Management (NGAGE CPaaS) at Comviva \u2014 Bengaluru, Karnataka, India | LinkedIn Jobs\n\n \n\n# Director - Product Management (NGAGE CPaaS)\n\n Comviva Bengaluru, Karnataka, India \n\n 3 weeks ago 119 applicants \n\nKey Responsibilities Product Strategy & Roadmap \n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS \n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video) \n- Prioritize features based on market demand, revenue impact, and competitive positioning \n- Align roadmap with enterprise customer needs across key verticals (BFSI, Retail, Logistics) \n\nAI & Platform Innovation \n\nLead AI infusion across the platform:\n\n- Conversational AI (LLM-powered chatbots, copilots) \n- Intelligent routing & optimization \n- Personalization and campaign automation \n\nDrive integration of GenAI into developer and customer workflows \n\nBuild differentiated capabilities vs competitors (e.g., Twilio, Sinch, Infobip) \n\nProduct Execution & Deliver \n\n- Work closely with engineering to deliver scalable, reliable, and secure platform capabilities \n- Define product requirements (PRDs), success metrics, and GTM readiness \n- Ensure high availability, performance, and compliance (SLA, NFRs, security)\n\n...\n\n- Build and lead a high-performing product team (PMs, APMs) \n- Mentor team on product thinking, execution rigor, and customer obsession \n- Foster a culture of ownership, speed, and innovation\n\n...\n\n- Own product KPIs: adoption, revenue growth, margins, and customer retention \n- Support sales and GTM teams with positioning, pricing, and solutioning \n- Influence monetization strategies (usage-based, SaaS, bundles) \n\nRequired Qualifications \n\n- 10\u201315 years in product management, with strong experience in CPaaS / Communications / Saa",
+            "error": null,
+            "title": "Exa Web Search: \"NGAGE CPaaS\" Comviva \"Director Product Management\" email contact"
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 41651,
+          "input": 39404,
+          "output": 87,
+          "reasoning": 304,
+          "cache": {
+            "read": 1856,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-85e96a54-0d24-4230-b9cf-cc6e62a5d802",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "\"Director - Product Management\" \"NGAGE CPaaS\" site:linkedin.com/posts"
+            },
+            "output": "Title: Connectivity is commoditized. Programmability is not. | Ravi Shankar\nURL: https://www.linkedin.com/posts/rspanday_revtech-mwc26-camara-activity-7431998955858640897-kOW7\nPublished: 2026-02-24T00:00:00.000Z\nAuthor: Ravi Shankar\nHighlights:\n# Connectivity is commoditized. Programmability is not. | Ravi Shankar \u00b7 LinkedIn \u00b7 2026-02-24\n\n**Ravi Shankar**: VP - Global Head of Business Development at Comviva for 7 months with 22 years 1 month of total professional experience. Previous roles include Vice President - Products & Marketing, Digital BSS & Wi-Fi Software Portfolio at Skyvera, Vice President - Head of Products & Marketing, Network Software Business at STL - Sterlite Technologies Limited, and Director Product Management at Optiva Inc.. Based in Pune Division, Maharashtra, India [IN].\n\n---\n\nConnectivity is commoditized. Programmability is not.\n\nOperators that expose network intelligence through APIs, secure their communication layer, and embed AI into engagement flows will unlock a structurally different growth trajectory.\n\nComviva #RevTech represents this shift \u2014 from infrastructure provider to digital capability platform.\n\nLooking forward to showcasing how measurable monetization can be built on top of secure, API-driven network foundations at #MWC26.\n\nVist us to see measurable outcomes around:\n\ud83d\ude80 Network APIs moving from concept to commercial scale\n\ud83e\udde0 AI-led engagement built on trusted telecom-grade data\n\ud83d\udd10 Security-by-design through messaging firewall capabilities\n\ud83d\udcb0 Turning infrastructure into revenue-generating digital assets\n\n#CAMARA, #NetworkAPI, #B2B2X #GMSAOpenGateway #ComvivaAtMWC #ExperienceCredibleImpact\n\nConnectivity is commoditized. Programmability is not. | Ravi Shankar image\n\n**Reshared from Comviva:**\n> Experience our #RevTech suite \u2013 NGAGE CPaaS, NGAGE Network APIs and Messaging Firewall in action at MWC Barcelona.\n>\n> From monetizing network assets to enabling intelligent, secure, AI-led interactions, our solutions empowers businesses to turn ",
+            "error": null,
+            "title": "Exa Web Search: \"Director - Product Management\" \"NGAGE CPaaS\" site:linkedin.com/posts"
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-1304b6b4-bb02-4974-be51-a79e4c3b7527",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "Comviva careers \"NGAGE CPaaS\" \"Director Product Management\" Bengaluru site:comviva.com"
+            },
+            "output": "Title: Comviva Careers | Jobs, Culture & Professional Growth\nURL: https://www.comviva.com/careers/\nPublished: N/A\nAuthor: N/A\nHighlights:\nComviva Careers | Jobs, Culture & Professional Growth\n\n# #EmpoweredToRise\n\nAt Comviva, transformation begins with people. We enable purposeful growth that fuels meaningful, measurable impact - for our teams, our clients, and the world.\n\n## #LetYourAmbitionsSoar\n\nAt Comviva, people are the true drivers of innovation. Guided by our core principles, we cultivate a dynamic and inclusive culture where collaboration thrives, excellence is recognized, and personal and professional growth is prioritized. We foster an environment that values every individual\u2019s contributions and supports their ambitions.\n\nJoin us and be part of something bigger.\n\nWith initiatives like flexible work policies and our ENERGIZE people management model, we create opportunities for employees to achieve professional success while maintaining a healthy work-life balance. At Comviva, we\u2019re not just building a workplace, we\u2019re building a community where people can flourish.\n\n### Empowering innovation, driving inclusion, and building the future - Join us in shaping tomorrow \n\nAt Comviva, we believe in empowering innovation, fostering an inclusive environment, and building a brighter future together. Our commitment to these values drives everything we do - from creating cutting-edge solutions to ensuring that every individual is supported and valued. Join us as we continue to shape the future, where every idea matters, every voice is heard, and every challenge is an opportunity to grow. Be a part of our journey in building tomorrow, today.\n\nBhagwati Shetty Chief Human Resources Officer\n\n#### #SucceedWithComviva\n\n# Life at Comviva\n\nWe are a people-first organization, where excellence is celebrated. Our culture is built on collaboration and innovation.\n\n# Benefits\n\nAt Comviva, we empower innovation and growth. Your ideas shape the future, and impact is celebrated. With s",
+            "error": null,
+            "title": "Exa Web Search: Comviva careers \"NGAGE CPaaS\" \"Director Product Management\" Bengaluru site:comviva.com"
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 45433,
+          "input": 3925,
+          "output": 111,
+          "reasoning": 181,
+          "cache": {
+            "read": 41216,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-6df444a2-8c9a-4e89-a204-8e25bea27140",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "site:linkedin.com \"Comviva\" \"NGAGE\" \"Director\" \"Product Management\" hiring"
+            },
+            "output": "Title: Director - Product Management (NGAGE CPaaS) at Comviva\nURL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885\nPublished: N/A\nAuthor: N/A\nHighlights:\nDirector - Product Management (NGAGE CPaaS) at Comviva \u2014 Bengaluru, Karnataka, India | LinkedIn Jobs\n\n \n\n# Director - Product Management (NGAGE CPaaS)\n\n Comviva Bengaluru, Karnataka, India \n\n 3 weeks ago 119 applicants \n\nKey Responsibilities Product Strategy & Roadmap \n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS \n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video) \n- Prioritize features based on market demand, revenue impact, and competitive positioning \n- Align roadmap with enterprise customer needs across key verticals (BFSI, Retail, Logistics) \n\nAI & Platform Innovation \n\nLead AI infusion across the platform:\n\n- Conversational AI (LLM-powered chatbots, copilots) \n- Intelligent routing & optimization \n- Personalization and campaign automation \n\nDrive integration of GenAI into developer and customer workflows \n\nBuild differentiated capabilities vs competitors (e.g., Twilio, Sinch, Infobip) \n\nProduct Execution & Deliver \n\n- Work closely with engineering to deliver scalable, reliable, and secure platform capabilities \n- Define product requirements (PRDs), success metrics, and GTM readiness \n- Ensure high availability, performance, and compliance (SLA, NFRs, security) \n\nTeam Leadership \n\n- Build and lead a high-performing product team (PMs, APMs) \n- Mentor team on product thinking, execution rigor, and customer obsession \n- Foster a culture of ownership, speed, and innovation \n\nCustomer & Ecosystem Engagement \n\n- Engage with key enterprise customers and partners (telcos, aggregators, OTT platforms) \n- Gather insights to improve product stickiness and reduce churn \n- Drive partnerships across messaging ecosystems (WABA, RBM, etc.) \n\nBusiness Impact \n\n- Own product KPIs: adoption, revenue growth, marg",
+            "error": null,
+            "title": "Exa Web Search: site:linkedin.com \"Comviva\" \"NGAGE\" \"Director\" \"Product Management\" hiring"
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-f1316d39-500b-49ab-b162-c6af039c5513",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "\"bharti.choudhary1@comviva.com\" OR \"anam.khan@comviva.com\" \"NGAGE\" OR \"CPaaS\" OR \"product management\""
+            },
+            "output": "Title: BHARTI CHOUDHARY - Talent Acquisition Professional\nURL: https://in.linkedin.com/in/bhartichoudhary\nPublished: 2026-09-14T16:23:54.000Z\nAuthor: N/A\nHighlights:\n# BHARTI CHOUDHARY\n\nTalent Acquisition Professional\n\nDelhi, India (IN)\n\n500 connections \u2022 15,971 followers\n\n## About\n\nA result driven Talent Acqusition professional with 8+ years of experience in managing end-to-end recruitment for India and overseas location. Core expertise in hiring for both tech and non-tech roles by utilizing a blend of various sourcing channels. Strong experience in candidate management & engagement, stakeholder management, vendor management and employee induction.\n\nTotal Experience: 10 years and 9 months\n\n## Experience\n\n### Talent Acquisition Manager - [Comviva](https://www.linkedin.com/company/comviva) (Current)\n\nJan 2025 - Present (1 year and 8 months)\n\nDepartment: Human Resources \u2022 Level: Manager\n\nComviva is a Software Development company. Comviva is a global leader in mobility solutions, creating intelligent software platforms that drive real business impact at scale. They empower businesses to simplify complexity, unlock growth, and transform customer experiences. Comviva has 2,000-3,000 employees (less than 1% YoY growth) and has annual revenue in the $1B-$2B range. Headquartered in Gurgaon, Haryana, India, operates in 11 countries (including United States, United Kingdom, Netherlands, Australia, and Nigeria). Its workforce is distributed across 50 countries (including India, United Arab Emirates, Netherlands, Nigeria, and Kenya). Has $13.5M in total funding.\n\n...\n\n### Senior Executive HR - [Comviva](https://www.linkedin.com/company/comviva)\n\nMay 2015 - Sep 2019 (4 years and 4 months) in Gurugram, State of Hary\u0101na, India\n\nDepartment: Human Resources \u2022 Level: Senior\n\n...\n\n- [2026-08-22 \u00b7 BHARTI CHOUDHARY shared this] [\ud83d\ude80 We're Hiring | Enterprise Presales Consultant (CPaaS |...](https://www.linkedin.com/posts/bhartichoudhary_hiring-presales-pre-activity-7496783228079337472-4s8",
+            "error": null,
+            "title": "Exa Web Search: \"bharti.choudhary1@comviva.com\" OR \"anam.khan@comviva.com\" \"NGAGE\" OR \"CPaaS\" OR \"product management\""
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 54293,
+          "input": 8623,
+          "output": 108,
+          "reasoning": 442,
+          "cache": {
+            "read": 45120,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-9edd4fc7-4ad4-48cc-a499-626d2ae6c195",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "site:comviva.com careers jobs \"NGAGE CPaaS\" OR \"Director Product Management\""
+            },
+            "output": "Title: Comviva : The Global Leader of Mobility Solutions\nURL: https://www.comviva.com/\nPublished: N/A\nAuthor: N/A\nHighlights:\n#### GLOTEL Awards 2025\n\nComviva\u2019s NGAGE API Monetization Suite recognized in the \u201cGroundbreaking Digital Services\u201d category. \n\n#### BIG Innovation Awards 2026\n\nWon two awards - mobiquity\u00ae Pay recognized in the \u201cBanking & Financial\u201d category and NGAGE in the \u201cTelecommunication\u201d category.\n\n#### Juniper Research Future Digital Awards 2026\n\nRecognized as Gold winner for NGAGE CPaaS in the \u201cBest Customer Interaction Solution\u201d category.\n\n...\n\nYears of technological excellence\n\n### 2Bn+\n\n...\n\n### 100+\n\nCountries served\n\n### 3000+\n\nThinkers, Researchers & Innovators\n\n### Careers that shape your future\n\n---\n\nTitle: Comviva : The Global Leader of Mobility Solutions\nURL: https://www.comviva.com/?page_id=1296\nPublished: 2025-03-17T10:46:08.000Z\nAuthor: N/A\nHighlights:\n#### GLOTEL Awards 2025\n\nComviva\u2019s NGAGE API Monetization Suite recognized in the \u201cGroundbreaking Digital Services\u201d category.\n\n...\n\n#### BIG Innovation Awards 2026\n\nWon two awards - mobiquity\u00ae Pay recognized in the \u201cBanking & Financial\u201d category and NGAGE in the \u201cTelecommunication\u201d category.\n\nAward\n\n#### Juniper Research Future Digital Awards 2026\n\nRecognized as Gold winner for NGAGE CPaaS in the \u201cBest Customer Interaction Solution\u201d category.\n\n...\n\nCountries served\n\n### 3000+\n\nThinkers, Researchers & Innovators\n\n### Careers that shape your future\n\nAt Comviva, you will have the chance to contribute to the tangible impacts of our work, and help us make the world a better place.\n\n---\n\nTitle: Comviva announces Kalyanasundaram Sivasubramaniam to lead the DigiTech Business, Accelerating Platform-Led Growth and AI Transformation - Comviva\nURL: https://www.comviva.com/resources/press-releases/comviva-announces-kalyanasundaram-sivasubramaniam-to-lead-the-digitech-business-accelerating-platform-led-growth-and-ai-transformation/\nPublished: 2026-09-08T00:00:00.000Z\nAuthor: N/A\nHighlights:\n# Comviva an",
+            "error": null,
+            "title": "Exa Web Search: site:comviva.com careers jobs \"NGAGE CPaaS\" OR \"Director Product Management\""
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-bd237a9e-e8a5-4bbe-a3d9-f9007c9580b0",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "Comviva \"Director Product Management\" \"NGAGE CPaaS\" \"careers.comviva\" OR \"jobs.comviva\" OR \"workday\" OR \"greenhouse\""
+            },
+            "output": "Title: Director - Product Management (NGAGE CPaaS)\nURL: https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f\nPublished: N/A\nAuthor: N/A\nHighlights:\nI\u2019m interested\n\n# Director - Product Management (NGAGE CPaaS)\n\n## Comviva\n\n## Bengaluru\n\n## On-site\n\n## INR 400,000 - 700,000\n\n## Full time\n\n10 days ago\n\nA complete application in a minute\n\nTailored resume and cover letter, ready to send.\n\nGet past ATS filters\n\nGenerate application\n\n### Job summary\n\nComviva is seeking an experienced Product Leader to define the vision and multi-year roadmap for Ngage CPaaS, focusing on growth across channels like SMS, WhatsApp, and Voice. You will prioritize features based on market demand, revenue impact, and competitive positioning, aligning the roadmap with enterprise customer needs across BFSI, Retail, and Logistics.\n\nLead AI infusion across the platform, including conversational AI, personalization, and GenAI integrations, while guiding the product\n\n### Qualifications\n\n- 10\u201315 years in product management, with strong experience in CPaaS / Communications / SaaS platforms.\n- Proven experience working with or at companies like Twilio, Sinch, Infobip, or similar ecosystems.\n- Deep understanding of messaging channels (SMS, WhatsApp, RBM, Voice APIs).\n- Experience in building platform products and APIs at scale.\n- Strong exposure to AI/ML or GenAI-led product innovations.\n- Demonstrated ability to lead teams and influence cross-functional stakeholders.\n\n### Responsibilities\n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS.\n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video).\n- Prioritize features based on market demand, revenue impact, and competitive positioning.\n\n### Skills\n\nCPaaS / SaaS\n\nPlatform products & APIs\n\nAI/GenAI innovations\n\nLeadership & cross-functional\n\nEnterprise engagement\n\n## Job description\n\n- Define and drive the product vision and multi-y",
+            "error": null,
+            "title": "Exa Web Search: Comviva \"Director Product Management\" \"NGAGE CPaaS\" \"careers.comviva\" OR \"jobs.comviva\" OR \"workday\" OR \"greenhouse\""
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 61050,
+          "input": 58970,
+          "output": 40,
+          "reasoning": 184,
+          "cache": {
+            "read": 1856,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-30c9d2cd-5c24-4742-9d78-e1a716fba331",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "\"Director - Product Management (NGAGE CPaaS)\" Comviva indeed glassdoor"
+            },
+            "output": "Title: Director - Product Management (NGAGE CPaaS) at Comviva \u2014 \u2026\nURL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885\nPublished: N/A\nAuthor: N/A\nHighlights:\nDirector - Product Management (NGAGE CPaaS) at Comviva \u2014 Bengaluru, Karnataka, India | LinkedIn Jobs\n\n \n\n# Director - Product Management (NGAGE CPaaS)\n\n Comviva Bengaluru, Karnataka, India \n\n 3 weeks ago 119 applicants \n\nKey Responsibilities Product Strategy & Roadmap \n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS \n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video) \n- Prioritize features based on market demand, revenue impact, and competitive positioning \n- Align roadmap with enterprise customer needs across key verticals (BFSI, Retail, Logistics) \n\nAI & Platform Innovation \n\nLead AI infusion across the platform:\n\n- Conversational AI (LLM-powered chatbots, copilots) \n- Intelligent routing & optimization \n- Personalization and campaign automation \n\nDrive integration of GenAI into developer and customer workflows \n\nBuild differentiated capabilities vs competitors (e.g., Twilio, Sinch, Infobip) \n\nProduct Execution & Deliver \n\n- Work closely with engineering to deliver scalable, reliable, and secure platform capabilities \n- Define product requirements (PRDs), success metrics, and GTM readiness \n- Ensure high availability, performance, and compliance (SLA, NFRs, security) \n\nTeam Leadership \n\n- Build and lead a high-performing product team (PMs, APMs) \n- Mentor team on product thinking, execution rigor, and customer obsession \n- Foster a culture of ownership, speed, and innovation \n\nCustomer & Ecosystem Engagement \n\n- Engage with key enterprise customers and partners (telcos, aggregators, OTT platforms) \n- Gather insights to improve product stickiness and reduce churn \n- Drive partnerships across messaging ecosystems (WABA, RBM, etc.) \n\nBusiness Impact \n\n- Own product KPIs: adoption, revenue growth, ",
+            "error": null,
+            "title": "Exa Web Search: \"Director - Product Management (NGAGE CPaaS)\" Comviva indeed glassdoor"
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 64094,
+          "input": 10280,
+          "output": 76,
+          "reasoning": 42,
+          "cache": {
+            "read": 53696,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-340697e5-6c8d-40a8-8e6c-9eee97da0ef3",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "\"Puja kumari\" Comviva email talent acquisition"
+            },
+            "output": "Title: Puja Kumari - Talent Acquisition Lead at Comviva | The Org\nURL: https://theorg.com/org/comviva/org-chart/puja-kumari\nPublished: N/A\nAuthor: N/A\nHighlights:\n# Puja Kumari \n\nTalent Acquisition Lead\n\nPuja Kumari has a strong background in talent acquisition and human resources. Their most recent role was as a Talent Acquisition Lead at Comviva, starting in February 2022. Prior to that, they worked as a Senior Talent Acquisition Specialist at Comviva from February 2018 to February 2022. \n\nBefore joining Comviva, Puja worked as an HR Executive at Nomura Services Pvt Ltd through IPES from December 2013 to June 2015. In this role, they handled and managed all recruitment activities related to IT Consultant hiring across divisions. Puja was responsible for sharing requirements with vendors, shortlisting profiles, scheduling interviews, and managing joining formalities. Additionally, they handled end-to-end recruitment for Equities and Fixed Income technology for permanent hires.\n\n---\n\nTitle: Comviva HR Department | Comviva Human Resources Department\nURL: https://rocketreach.co/comviva-hr-department_b5eb236df42e8416\nPublished: N/A\nAuthor: N/A\nHighlights:\nManager at Comviva \n\n Delhi, India \n\nView\n\n 2 \n\n- gmail.com\n- comviva.com\n\n 1 \n\n- +91 99116 8XXXX\n- \n\n### Puja Kumari\n\n#### Talent Acquisition Lead at Comviva \n\n Gurugram, HR, IN \n\nView\n\n 2 \n\n- comviva.com\n- gmail.com\n\n 1 \n\n- +91 99998 0XXXX\n-\n\n---\n\nTitle: Puja kumari\nURL: https://linkedin.com/in/puja-kumari-12281a45\nPublished: 2026-10-17T23:40:43.000Z\nAuthor: N/A\nHighlights:\n# Puja kumari\n\nSenior Manager@ Comviva -A Tech Mahindra Co.| LinkedIn Recruiter, Talent Management\n\nGurgaon, Haryana, India (IN)\n\n500 connections \u2022 9,745 followers\n\n## About\n\nAs the Talent Acquisition Lead at Comviva-A Tech Mahindra Company, I am responsible for overseeing and managing all recruitment activities related to IT hiring across divisions, from sourcing to onboarding. With over 9 years of experience in the human resources field, I have",
+            "error": null,
+            "title": "Exa Web Search: \"Puja kumari\" Comviva email talent acquisition"
+          },
+          {
+            "type": "tool",
+            "tool": "websearch",
+            "callID": "call-dc1fcdda-482d-4137-acdc-6a2745c65ab6",
+            "status": "completed",
+            "input": {
+              "numResults": 10,
+              "query": "\"Sabyasachi Goswami\" Comviva email"
+            },
+            "output": "Title: We're looking for a dynamic OSS Expert with strong hands-on experience in Technical Management or Solution Architecture to join our growing team! | Sabyasachi G\nURL: https://www.linkedin.com/posts/sabyasachi-g-496079202_oss-hiring-telecomcareers-activity-7323645695977017344-muzj\nPublished: N/A\nAuthor: Sabyasachi G\nHighlights:\n**Sabyasachi G**: Director TA at Comviva for 10 months with 5 years 6 months of total professional experience. Previous roles include Senior Recruitment Specialist, - Leadership & Strategic hiring at Netcracker Technology and Recruitment Specialist at Netcracker Technology. Based in Gurugram, Haryana, India [IN].\n\n---\n\nWe're looking for a dynamic OSS Expert with strong hands-on experience in Technical Management or Solution Architecture to join our growing team!\nThe ideal candidate should bring deep expertise across key OSS domains, including:\n\ud83d\udd39 Inventory Management\n\ud83d\udd39 Orchestration\n\ud83d\udd39 Service Assurance\n\ud83d\udd39 Provisioning & Activation\n\ud83d\udd39 Order Management\nThis is a critical role that will collaborate with cross-functional teams to ensure seamless service delivery, boost operational efficiency, and elevate network intelligence.\n\ud83d\udccd Location: Pune & Gurgaon\n\ud83d\udd27 Experience: 12+ years\nIf you\u2019re passionate about building robust OSS platforms and shaping the future of telecom operations, we\u2019d love to connect!\n\ud83d\udce9 DM me or share your profile at sabyasachi.goswami@netcracker.com\n#OSS #Hiring #TelecomCareers #InventoryManagement #OrderManagement #ServiceAssurance #Orchestration #TelecomJobs #PuneJobs #GurgaonJobsI'm interestedI'm interestedNadeem Ahmad#cfbrI'm interested\ud83d\ude80 Exciting opportunityTarun SinglaMukesh MishraI'm interestedI'm interested\n\n---\n\nTitle: Currently hiring for a hands-on Technical Manager or Senior Technical Manager or Engineering Manager with extensive delivery experience in Java, microservices, CICD, and DevOps. The ideal candidate should have at least 12+ \u2026 | Sabyasachi G\nURL: https://www.linkedin.com/feed/update/urn:li:activity:7282357835",
+            "error": null,
+            "title": "Exa Web Search: \"Sabyasachi Goswami\" Comviva email"
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "agent": "research",
+        "providerID": "opencode-go",
+        "modelID": "beam-free",
+        "tokens": {
+          "total": 74389,
+          "input": 7595,
+          "output": 1124,
+          "reasoning": 1734,
+          "cache": {
+            "read": 63936,
+            "write": 0
+          }
+        },
+        "cost": 0,
+        "error": null,
+        "parts": [
+          {
+            "type": "step-start",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "snapshot",
+              "type"
+            ]
+          },
+          {
+            "type": "reasoning",
+            "keys": [
+              "id",
+              "messageID",
+              "sessionID",
+              "text",
+              "time",
+              "type"
+            ]
+          },
+          {
+            "type": "text",
+            "text": "**Original listing / IDs**\n- Original job listing URL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885\n- Platform job ID: LinkedIn `4474132885`; Jobleads aggregator ID `eadbca7af701cd8a71a39a489a7f8be1f` (https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f)\n- No Comviva-owned career-portal job ID found (unavailable)\n\n**Job details**\n- Title: Director - Product Management (NGAGE CPaaS)\n- Company: Comviva (Comviva Technologies Limited)\n- Location: Bengaluru, Karnataka, India (on-site)\n- Posting date: Jobleads schema `datePosted: 2026-10-21`, `validThrough: 2026-11-13`; LinkedIn shows relative \u201c3 weeks ago\u201d/\u201c1 month ago\u201d (inconsistent across captures); exact single posting date unavailable/ambiguous\n- Salary (Jobleads only): INR 400,000\u2013700,000/year\n- Seniority/Type/Industry: Director; Full-time; Software Development\n\n**Recruiter contacts (Comviva Talent Acquisition)**\n- Bharti Choudhary \u2014 Talent Acquisition Manager, Comviva. Email: `bharti.choudhary1@comviva.com` (source: LinkedIn post; excerpt \u201cEmail resume @ bharti.choudhary1@comviva.com\u201d). Adjacent evidence only: posted Enterprise Presales Consultant (CPaaS) and tagged Tarun Arora; not direct evidence for this role.\n- Anam Khan \u2014 Assistant Manager Talent Acquisition, Comviva. Email: `anam.khan@comviva.com` (source: LinkedIn hiring posts; excerpt \u201cshare their updated resume at: Anam.khan@comviva.com\u201d). Adjacent evidence only.\n- Puja Kumari \u2014 Talent Acquisition Lead/Senior Manager, Comviva. Email: `puja.kumari@comviva.com` (source: LinkedIn posts; excerpt \u201cShare your CV at puja.kumari@comviva.com\u201d). Adjacent evidence only.\n- Sabyasachi Goswami \u2014 Director Talent Acquisition, Comviva. No Comviva email directly evidenced; posts cite `sabyasachi.goswami@netcracker.com` (prior employer) \u2014 mark unavailable for Comviva.\n- Garima Tripathi, Jaishree Y, Shreshtha Nagar \u2014 listed in Comviva TA team (The Org); no publ"
+          },
+          {
+            "type": "step-finish",
+            "keys": [
+              "cost",
+              "id",
+              "messageID",
+              "reason",
+              "sessionID",
+              "snapshot",
+              "tokens",
+              "type"
+            ]
+          }
+        ]
+      }
+    ],
+    "tool_calls": [
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-31e1b81c-d4e2-4b47-b500-2a27f8d29870",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "Comviva \"Director - Product Management\" \"NGAGE CPaaS\" Bengaluru job"
+        },
+        "output": "Title: Director - Product Management (NGAGE CPaaS) at Comviva\nURL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885\nPublished: N/A\nAuthor: N/A\nHighlights:\nDirector - Product Management (NGAGE CPaaS) at Comviva \u2014 Bengaluru, Karnataka, India | LinkedIn Jobs\n\n \n\n# Director - Product Management (NGAGE CPaaS)\n\n Comviva Bengaluru, Karnataka, India \n\n 3 weeks ago 119 applicants \n\nKey Responsibilities Product Strategy & Roadmap \n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS \n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video) \n- Prioritize features based on market demand, revenue impact, and competitive positioning \n- Align roadmap with enterprise customer needs across key verticals (BFSI, Retail, Logistics) \n\nAI & Platform Innovation \n\nLead AI infusion across the platform:\n\n- Conversational AI (LLM-powered chatbots, copilots) \n- Intelligent routing & optimization \n- Personalization and campaign automation \n\nDrive integration of GenAI into developer and customer workflows \n\nBuild differentiated capabilities vs competitors (e.g., Twilio, Sinch, Infobip) \n\nProduct Execution & Deliver \n\n- Work closely with engineering to deliver scalable, reliable, and secure platform capabilities \n- Define product requirements (PRDs), success metrics, and GTM readiness \n- Ensure high availability, performance, and compliance (SLA, NFRs, security) \n\nTeam Leadership \n\n- Build and lead a high-performing product team (PMs, APMs) \n- Mentor team on product thinking, execution rigor, and customer obsession \n- Foster a culture of ownership, speed, and innovation \n\nCustomer & Ecosystem Engagement \n\n- Engage with key enterprise customers and partners (telcos, aggregators, OTT platforms) \n- Gather insights to improve product stickiness and reduce churn \n- Drive partnerships across messaging ecosystems (WABA, RBM, etc.) \n\nBusiness Impact \n\n- Own product KPIs: adoption, revenue growth, marg",
+        "error": null,
+        "title": "Exa Web Search: Comviva \"Director - Product Management\" \"NGAGE CPaaS\" Bengaluru job"
+      },
+      {
+        "type": "tool",
+        "tool": "webfetch",
+        "callID": "call-ecbee8b8-7ef3-40c4-9a4a-c28745308cf7",
+        "status": "completed",
+        "input": {
+          "url": "https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885"
+        },
+        "output": "               Director - Product Management (NGAGE CPaaS) at Comviva \u2014 Bengaluru, Karnataka, India | LinkedIn Jobs                            [Skip to main content](#main-content)\n\n[LinkedIn](/?trk=public_jobs_nav-header-logo)\n\nDirector - Product Management (NGAGE CPaaS) in Bengaluru\n\nExpand search\n\nThis button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.\n\n-   Jobs\n-   People\n-   Learning\n\n Clear text\n\n Clear text\n\n \n\nClear text\n\n \n\nClear text\n\n \n\n Clear text\n\n \n\n[Sign in](https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fin.linkedin.com%2Fjobs%2Fview%2Fdirector-product-management-ngage-cpaas-at-comviva-4474132885&trk=public_jobs_nav-header-signin) [Join now](https://www.linkedin.com/signup/cold-join?source=jobs_registration&session_redirect=https%3A%2F%2Fin.linkedin.com%2Fjobs%2Fview%2Fdirector-product-management-ngage-cpaas-at-comviva-4474132885&trk=public_jobs_nav-header-join) [](https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fin.linkedin.com%2Fjobs%2Fview%2Fdirector-product-management-ngage-cpaas-at-comviva-4474132885&trk=public_jobs_nav-header-signin)\n\n### Director - Product Management (NGAGE CPaaS)\n\n[Comviva](https://in.linkedin.com/company/comviva?trk=public_jobs_sub-nav-cta-optional-url \"Comviva\") Bengaluru, Karnataka, India\n\nApply\n\n## Join or sign in to find your next job\n\nJoin to apply for the **Director - Product Management (NGAGE CPaaS)** role at **Comviva**\n\nEmail or phone\n\nPassword\n\n Show\n\n \n\n[Forgot password?](https://www.linkedin.com/uas/request-password-reset?trk=csm-v2_forgot_password)  Sign in\n\nSign in with Email\n\nor\n\nNew to LinkedIn? [Join now](https://www.linkedin.com/signup/cold-join?source=jobs_registration&session_redirect=https%3A%2F%2Fin.linkedin.com%2Fjobs%2Fview%2Fdirector-product-management-ngage-cpaas-at-comviva",
+        "error": null,
+        "title": "https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885 (text/html; charset=utf-8)"
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-7278dc33-db5c-4d91-af65-9047963cd833",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "Comviva \"Director Product Management\" \"NGAGE CPaaS\" recruiter talent acquisition Bengaluru"
+        },
+        "output": "Title: Director - Product Management (NGAGE CPaaS)\nURL: https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f\nPublished: N/A\nAuthor: N/A\nHighlights:\nI\u2019m interested\n\n# Director - Product Management (NGAGE CPaaS)\n\n## Comviva\n\n## Bengaluru\n\n## On-site\n\n## INR 400,000 - 700,000\n\n## Full time\n\n10 days ago\n\nA complete application in a minute\n\nTailored resume and cover letter, ready to send.\n\nGet past ATS filters\n\nGenerate application\n\n### Job summary\n\nComviva is seeking an experienced Product Leader to define the vision and multi-year roadmap for Ngage CPaaS, focusing on growth across channels like SMS, WhatsApp, and Voice. You will prioritize features based on market demand, revenue impact, and competitive positioning, aligning the roadmap with enterprise customer needs across BFSI, Retail, and Logistics.\n\nLead AI infusion across the platform, including conversational AI, personalization, and GenAI integrations, while guiding the product\n\n### Qualifications\n\n- 10\u201315 years in product management, with strong experience in CPaaS / Communications / SaaS platforms.\n- Proven experience working with or at companies like Twilio, Sinch, Infobip, or similar ecosystems.\n- Deep understanding of messaging channels (SMS, WhatsApp, RBM, Voice APIs).\n- Experience in building platform products and APIs at scale.\n- Strong exposure to AI/ML or GenAI-led product innovations.\n- Demonstrated ability to lead teams and influence cross-functional stakeholders.\n\n### Responsibilities\n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS.\n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video).\n- Prioritize features based on market demand, revenue impact, and competitive positioning.\n\n### Skills\n\nCPaaS / SaaS\n\nPlatform products & APIs\n\nAI/GenAI innovations\n\nLeadership & cross-functional\n\nEnterprise engagement\n\n## Job description\n\n- Define and drive the product vision and multi-y",
+        "error": null,
+        "title": "Exa Web Search: Comviva \"Director Product Management\" \"NGAGE CPaaS\" recruiter talent acquisition Bengaluru"
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-b71c9794-9923-47c3-8973-1cbb082e4742",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "Comviva recruiter \"talent acquisition\" product management Bengaluru LinkedIn email"
+        },
+        "output": "Title: \ud83d\ude80 Hiring | AI Engineer | Anam Khan\nURL: https://www.linkedin.com/posts/anam-khan-50b60418a_hiring-aiengineer-generativeai-activity-7471172983881887744-qgRy\nPublished: 2026-06-12T00:00:00.000Z\nAuthor: Anam Khan\nHighlights:\n# \ud83d\ude80 Hiring | AI Engineer | Anam Khan \u00b7 LinkedIn \u00b7 2026-06-12T00:00:00+00:00\n\n**Anam Khan**: Assistant manager Talent Acquisition.\n\n---\n\n\ud83d\ude80 Hiring | AI Engineer\n\ud83d\udccd Location: Gurgaon / Bangalore\n\ud83d\udcc5 Experience: 4\u20138 Years\nWe are looking for passionate AI Engineers to build next-generation AI-powered assistants, copilots, and intelligent automation solutions for enterprise MarTech products.\n\ud83d\udd39 Strong experience with Generative AI, LLMs, RAG, Prompt Engineering, Embeddings, Semantic Search, and Vector Databases.\n\ud83d\udd39 Hands-on expertise in Python, APIs, Microservices, Cloud Platforms (AWS/Azure/GCP), and enterprise application integration.\n\ud83d\udd39 Experience building AI Assistants, Copilots, Chatbots, or Agent-based applications.\n\ud83d\udd39 Familiarity with LangChain, LangGraph, LlamaIndex, Semantic Kernel, CrewAI, AutoGen, or similar AI frameworks is preferred.\n\ud83d\udd39 Exposure to Telecom, MarTech, Loyalty, Customer Engagement, Analytics, or Customer Data Platforms will be an added advantage.\nJoin us to build scalable AI solutions that create real business impact and shape the future of enterprise software.\n\ud83d\udce7 Interested candidates can share their updated resume at: Anam.khan@comviva.com\n#Hiring #AIEngineer #GenerativeAI #LLM #AgenticAI #RAG #PromptEngineering #Python #MachineLearning #ArtificialIntelligence #LangChain #LLMOps #CloudEngineering #MarTech #Telecom #ProductEngineering #Comviva #NowHiring\n\n---\n\nTitle: anam khan\nURL: https://linkedin.com/in/anam-khan-50b60418a\nPublished: 2026-10-24T03:52:20.000Z\nAuthor: N/A\nHighlights:\n# Anam Khan\n\nAssistant manager Talent Acquisition\n\nNoida, Uttar Pradesh, India (IN)\n\n500 connections \u2022 2,399 followers\n\n## About\n\nAssistant manager Talent Acquisition\n\nTotal Experience: 9 years and 5 months\n\n## Experience\n\n### Assistant Manager Tale",
+        "error": null,
+        "title": "Exa Web Search: Comviva recruiter \"talent acquisition\" product management Bengaluru LinkedIn email"
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-6d2af036-5266-4b58-b02b-04cc2d767265",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "site:naukri.com Comviva \"Director Product Management\" \"NGAGE CPaaS\""
+        },
+        "output": "Title: Principal PM, MobiLytix Modernisation - New Delhi - Comviva Technology - 10 to 15 years of experience - Naukri.com\nURL: https://www.naukri.com/job-listings-principal-pm-mobilytix-modernisation-comviva-technologies-limited-new-delhi-10-to-15-years-040526500618\nPublished: N/A\nAuthor: N/A\nHighlights:\nPrincipal PM, MobiLytix Modernisation - New Delhi - Comviva Technology - 10 to 15 years of experience - Naukri.com\n\n# Principal PM, MobiLytix Modernisation\n\nComviva Technology\n\n2.7\n\n1.1K Reviews\n\n10 - 15 years\n\nNot Disclosed\n\nNew Delhi\n\nPosted: 3+ weeks ago Openings: 1 Applicants: 36 Continue with Google\n\nComviva Technology\n\n2.7\n\n1.1K Reviews\n\n## Job description\n\n Key Accountabilities \n\n- Lead the evolution of MobiLytix into a cross-industry, AI-native, real-time engagement platform. \n- Define and own the multi-year platform abstraction and extensibility strategy. \n- Govern AI capability coherence across ML Platform, Agentic Systems and Reporting & Analytics. \n- Define and drive the product direction for real-time, compute-to-data execution architecture. \n- Establish cross-module integration principles and prevent domain-specific coupling. \n- Arbitrate platform integrity versus module-level optimisation trade-offs. \n- Represent the AI-native platform vision in client workshops, analyst briefings and executive forums. \n- Align platform roadmap with commercial expansion priorities including CPG D2C. \n- Partner with Product Engineering leadership to align system architecture with long-term platform strategy. \n- Build and mentor senior product managers within the Modernisation portfolio. \n\n Mandatory Skills \n\n- 10+ years of enterprise SaaS product management experience. \n- Proven experience building or scaling complex platforms rather than isolated features. \n- Demonstrated experience defining platform abstraction or extensibility strategies across complex product ecosystems. \n- Strong conceptual understanding of AI/ML lifecycle principles, real-time inference models an",
+        "error": null,
+        "title": "Exa Web Search: site:naukri.com Comviva \"Director Product Management\" \"NGAGE CPaaS\""
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-cd0918d0-d903-4e3b-83f1-92f1c48e574b",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "Comviva \"Director - Product Management (NGAGE CPaaS)\" LinkedIn hiring post"
+        },
+        "output": "Title: Director - Product Management (NGAGE CPaaS)\nURL: https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f\nPublished: N/A\nAuthor: N/A\nHighlights:\nI\u2019m interested\n\n# Director - Product Management (NGAGE CPaaS)\n\n## Comviva\n\n## Bengaluru\n\n## On-site\n\n## INR 400,000 - 700,000\n\n## Full time\n\n10 days ago\n\nA complete application in a minute\n\nTailored resume and cover letter, ready to send.\n\nGet past ATS filters\n\nGenerate application\n\n### Job summary\n\nComviva is seeking an experienced Product Leader to define the vision and multi-year roadmap for Ngage CPaaS, focusing on growth across channels like SMS, WhatsApp, and Voice. You will prioritize features based on market demand, revenue impact, and competitive positioning, aligning the roadmap with enterprise customer needs across BFSI, Retail, and Logistics.\n\nLead AI infusion across the platform, including conversational AI, personalization, and GenAI integrations, while guiding the product\n\n### Qualifications\n\n- 10\u201315 years in product management, with strong experience in CPaaS / Communications / SaaS platforms.\n- Proven experience working with or at companies like Twilio, Sinch, Infobip, or similar ecosystems.\n- Deep understanding of messaging channels (SMS, WhatsApp, RBM, Voice APIs).\n- Experience in building platform products and APIs at scale.\n- Strong exposure to AI/ML or GenAI-led product innovations.\n- Demonstrated ability to lead teams and influence cross-functional stakeholders.\n\n### Responsibilities\n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS.\n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video).\n- Prioritize features based on market demand, revenue impact, and competitive positioning.\n\n### Skills\n\nCPaaS / SaaS\n\nPlatform products & APIs\n\nAI/GenAI innovations\n\nLeadership & cross-functional\n\nEnterprise engagement\n\n## Job description\n\n- Define and drive the product vision and multi-y",
+        "error": null,
+        "title": "Exa Web Search: Comviva \"Director - Product Management (NGAGE CPaaS)\" LinkedIn hiring post"
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-21179d3e-fb23-476e-a205-12a7d999b4cf",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "\"NGAGE CPaaS\" Comviva \"Director Product Management\" email contact"
+        },
+        "output": "Title: Director - Product Management (NGAGE CPaaS) at Comviva\nURL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885\nPublished: N/A\nAuthor: N/A\nHighlights:\nDirector - Product Management (NGAGE CPaaS) at Comviva \u2014 Bengaluru, Karnataka, India | LinkedIn Jobs\n\n \n\n# Director - Product Management (NGAGE CPaaS)\n\n Comviva Bengaluru, Karnataka, India \n\n 3 weeks ago 119 applicants \n\nKey Responsibilities Product Strategy & Roadmap \n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS \n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video) \n- Prioritize features based on market demand, revenue impact, and competitive positioning \n- Align roadmap with enterprise customer needs across key verticals (BFSI, Retail, Logistics) \n\nAI & Platform Innovation \n\nLead AI infusion across the platform:\n\n- Conversational AI (LLM-powered chatbots, copilots) \n- Intelligent routing & optimization \n- Personalization and campaign automation \n\nDrive integration of GenAI into developer and customer workflows \n\nBuild differentiated capabilities vs competitors (e.g., Twilio, Sinch, Infobip) \n\nProduct Execution & Deliver \n\n- Work closely with engineering to deliver scalable, reliable, and secure platform capabilities \n- Define product requirements (PRDs), success metrics, and GTM readiness \n- Ensure high availability, performance, and compliance (SLA, NFRs, security)\n\n...\n\n- Build and lead a high-performing product team (PMs, APMs) \n- Mentor team on product thinking, execution rigor, and customer obsession \n- Foster a culture of ownership, speed, and innovation\n\n...\n\n- Own product KPIs: adoption, revenue growth, margins, and customer retention \n- Support sales and GTM teams with positioning, pricing, and solutioning \n- Influence monetization strategies (usage-based, SaaS, bundles) \n\nRequired Qualifications \n\n- 10\u201315 years in product management, with strong experience in CPaaS / Communications / Saa",
+        "error": null,
+        "title": "Exa Web Search: \"NGAGE CPaaS\" Comviva \"Director Product Management\" email contact"
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-85e96a54-0d24-4230-b9cf-cc6e62a5d802",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "\"Director - Product Management\" \"NGAGE CPaaS\" site:linkedin.com/posts"
+        },
+        "output": "Title: Connectivity is commoditized. Programmability is not. | Ravi Shankar\nURL: https://www.linkedin.com/posts/rspanday_revtech-mwc26-camara-activity-7431998955858640897-kOW7\nPublished: 2026-02-24T00:00:00.000Z\nAuthor: Ravi Shankar\nHighlights:\n# Connectivity is commoditized. Programmability is not. | Ravi Shankar \u00b7 LinkedIn \u00b7 2026-02-24\n\n**Ravi Shankar**: VP - Global Head of Business Development at Comviva for 7 months with 22 years 1 month of total professional experience. Previous roles include Vice President - Products & Marketing, Digital BSS & Wi-Fi Software Portfolio at Skyvera, Vice President - Head of Products & Marketing, Network Software Business at STL - Sterlite Technologies Limited, and Director Product Management at Optiva Inc.. Based in Pune Division, Maharashtra, India [IN].\n\n---\n\nConnectivity is commoditized. Programmability is not.\n\nOperators that expose network intelligence through APIs, secure their communication layer, and embed AI into engagement flows will unlock a structurally different growth trajectory.\n\nComviva #RevTech represents this shift \u2014 from infrastructure provider to digital capability platform.\n\nLooking forward to showcasing how measurable monetization can be built on top of secure, API-driven network foundations at #MWC26.\n\nVist us to see measurable outcomes around:\n\ud83d\ude80 Network APIs moving from concept to commercial scale\n\ud83e\udde0 AI-led engagement built on trusted telecom-grade data\n\ud83d\udd10 Security-by-design through messaging firewall capabilities\n\ud83d\udcb0 Turning infrastructure into revenue-generating digital assets\n\n#CAMARA, #NetworkAPI, #B2B2X #GMSAOpenGateway #ComvivaAtMWC #ExperienceCredibleImpact\n\nConnectivity is commoditized. Programmability is not. | Ravi Shankar image\n\n**Reshared from Comviva:**\n> Experience our #RevTech suite \u2013 NGAGE CPaaS, NGAGE Network APIs and Messaging Firewall in action at MWC Barcelona.\n>\n> From monetizing network assets to enabling intelligent, secure, AI-led interactions, our solutions empowers businesses to turn ",
+        "error": null,
+        "title": "Exa Web Search: \"Director - Product Management\" \"NGAGE CPaaS\" site:linkedin.com/posts"
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-1304b6b4-bb02-4974-be51-a79e4c3b7527",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "Comviva careers \"NGAGE CPaaS\" \"Director Product Management\" Bengaluru site:comviva.com"
+        },
+        "output": "Title: Comviva Careers | Jobs, Culture & Professional Growth\nURL: https://www.comviva.com/careers/\nPublished: N/A\nAuthor: N/A\nHighlights:\nComviva Careers | Jobs, Culture & Professional Growth\n\n# #EmpoweredToRise\n\nAt Comviva, transformation begins with people. We enable purposeful growth that fuels meaningful, measurable impact - for our teams, our clients, and the world.\n\n## #LetYourAmbitionsSoar\n\nAt Comviva, people are the true drivers of innovation. Guided by our core principles, we cultivate a dynamic and inclusive culture where collaboration thrives, excellence is recognized, and personal and professional growth is prioritized. We foster an environment that values every individual\u2019s contributions and supports their ambitions.\n\nJoin us and be part of something bigger.\n\nWith initiatives like flexible work policies and our ENERGIZE people management model, we create opportunities for employees to achieve professional success while maintaining a healthy work-life balance. At Comviva, we\u2019re not just building a workplace, we\u2019re building a community where people can flourish.\n\n### Empowering innovation, driving inclusion, and building the future - Join us in shaping tomorrow \n\nAt Comviva, we believe in empowering innovation, fostering an inclusive environment, and building a brighter future together. Our commitment to these values drives everything we do - from creating cutting-edge solutions to ensuring that every individual is supported and valued. Join us as we continue to shape the future, where every idea matters, every voice is heard, and every challenge is an opportunity to grow. Be a part of our journey in building tomorrow, today.\n\nBhagwati Shetty Chief Human Resources Officer\n\n#### #SucceedWithComviva\n\n# Life at Comviva\n\nWe are a people-first organization, where excellence is celebrated. Our culture is built on collaboration and innovation.\n\n# Benefits\n\nAt Comviva, we empower innovation and growth. Your ideas shape the future, and impact is celebrated. With s",
+        "error": null,
+        "title": "Exa Web Search: Comviva careers \"NGAGE CPaaS\" \"Director Product Management\" Bengaluru site:comviva.com"
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-6df444a2-8c9a-4e89-a204-8e25bea27140",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "site:linkedin.com \"Comviva\" \"NGAGE\" \"Director\" \"Product Management\" hiring"
+        },
+        "output": "Title: Director - Product Management (NGAGE CPaaS) at Comviva\nURL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885\nPublished: N/A\nAuthor: N/A\nHighlights:\nDirector - Product Management (NGAGE CPaaS) at Comviva \u2014 Bengaluru, Karnataka, India | LinkedIn Jobs\n\n \n\n# Director - Product Management (NGAGE CPaaS)\n\n Comviva Bengaluru, Karnataka, India \n\n 3 weeks ago 119 applicants \n\nKey Responsibilities Product Strategy & Roadmap \n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS \n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video) \n- Prioritize features based on market demand, revenue impact, and competitive positioning \n- Align roadmap with enterprise customer needs across key verticals (BFSI, Retail, Logistics) \n\nAI & Platform Innovation \n\nLead AI infusion across the platform:\n\n- Conversational AI (LLM-powered chatbots, copilots) \n- Intelligent routing & optimization \n- Personalization and campaign automation \n\nDrive integration of GenAI into developer and customer workflows \n\nBuild differentiated capabilities vs competitors (e.g., Twilio, Sinch, Infobip) \n\nProduct Execution & Deliver \n\n- Work closely with engineering to deliver scalable, reliable, and secure platform capabilities \n- Define product requirements (PRDs), success metrics, and GTM readiness \n- Ensure high availability, performance, and compliance (SLA, NFRs, security) \n\nTeam Leadership \n\n- Build and lead a high-performing product team (PMs, APMs) \n- Mentor team on product thinking, execution rigor, and customer obsession \n- Foster a culture of ownership, speed, and innovation \n\nCustomer & Ecosystem Engagement \n\n- Engage with key enterprise customers and partners (telcos, aggregators, OTT platforms) \n- Gather insights to improve product stickiness and reduce churn \n- Drive partnerships across messaging ecosystems (WABA, RBM, etc.) \n\nBusiness Impact \n\n- Own product KPIs: adoption, revenue growth, marg",
+        "error": null,
+        "title": "Exa Web Search: site:linkedin.com \"Comviva\" \"NGAGE\" \"Director\" \"Product Management\" hiring"
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-f1316d39-500b-49ab-b162-c6af039c5513",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "\"bharti.choudhary1@comviva.com\" OR \"anam.khan@comviva.com\" \"NGAGE\" OR \"CPaaS\" OR \"product management\""
+        },
+        "output": "Title: BHARTI CHOUDHARY - Talent Acquisition Professional\nURL: https://in.linkedin.com/in/bhartichoudhary\nPublished: 2026-09-14T16:23:54.000Z\nAuthor: N/A\nHighlights:\n# BHARTI CHOUDHARY\n\nTalent Acquisition Professional\n\nDelhi, India (IN)\n\n500 connections \u2022 15,971 followers\n\n## About\n\nA result driven Talent Acqusition professional with 8+ years of experience in managing end-to-end recruitment for India and overseas location. Core expertise in hiring for both tech and non-tech roles by utilizing a blend of various sourcing channels. Strong experience in candidate management & engagement, stakeholder management, vendor management and employee induction.\n\nTotal Experience: 10 years and 9 months\n\n## Experience\n\n### Talent Acquisition Manager - [Comviva](https://www.linkedin.com/company/comviva) (Current)\n\nJan 2025 - Present (1 year and 8 months)\n\nDepartment: Human Resources \u2022 Level: Manager\n\nComviva is a Software Development company. Comviva is a global leader in mobility solutions, creating intelligent software platforms that drive real business impact at scale. They empower businesses to simplify complexity, unlock growth, and transform customer experiences. Comviva has 2,000-3,000 employees (less than 1% YoY growth) and has annual revenue in the $1B-$2B range. Headquartered in Gurgaon, Haryana, India, operates in 11 countries (including United States, United Kingdom, Netherlands, Australia, and Nigeria). Its workforce is distributed across 50 countries (including India, United Arab Emirates, Netherlands, Nigeria, and Kenya). Has $13.5M in total funding.\n\n...\n\n### Senior Executive HR - [Comviva](https://www.linkedin.com/company/comviva)\n\nMay 2015 - Sep 2019 (4 years and 4 months) in Gurugram, State of Hary\u0101na, India\n\nDepartment: Human Resources \u2022 Level: Senior\n\n...\n\n- [2026-08-22 \u00b7 BHARTI CHOUDHARY shared this] [\ud83d\ude80 We're Hiring | Enterprise Presales Consultant (CPaaS |...](https://www.linkedin.com/posts/bhartichoudhary_hiring-presales-pre-activity-7496783228079337472-4s8",
+        "error": null,
+        "title": "Exa Web Search: \"bharti.choudhary1@comviva.com\" OR \"anam.khan@comviva.com\" \"NGAGE\" OR \"CPaaS\" OR \"product management\""
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-9edd4fc7-4ad4-48cc-a499-626d2ae6c195",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "site:comviva.com careers jobs \"NGAGE CPaaS\" OR \"Director Product Management\""
+        },
+        "output": "Title: Comviva : The Global Leader of Mobility Solutions\nURL: https://www.comviva.com/\nPublished: N/A\nAuthor: N/A\nHighlights:\n#### GLOTEL Awards 2025\n\nComviva\u2019s NGAGE API Monetization Suite recognized in the \u201cGroundbreaking Digital Services\u201d category. \n\n#### BIG Innovation Awards 2026\n\nWon two awards - mobiquity\u00ae Pay recognized in the \u201cBanking & Financial\u201d category and NGAGE in the \u201cTelecommunication\u201d category.\n\n#### Juniper Research Future Digital Awards 2026\n\nRecognized as Gold winner for NGAGE CPaaS in the \u201cBest Customer Interaction Solution\u201d category.\n\n...\n\nYears of technological excellence\n\n### 2Bn+\n\n...\n\n### 100+\n\nCountries served\n\n### 3000+\n\nThinkers, Researchers & Innovators\n\n### Careers that shape your future\n\n---\n\nTitle: Comviva : The Global Leader of Mobility Solutions\nURL: https://www.comviva.com/?page_id=1296\nPublished: 2025-03-17T10:46:08.000Z\nAuthor: N/A\nHighlights:\n#### GLOTEL Awards 2025\n\nComviva\u2019s NGAGE API Monetization Suite recognized in the \u201cGroundbreaking Digital Services\u201d category.\n\n...\n\n#### BIG Innovation Awards 2026\n\nWon two awards - mobiquity\u00ae Pay recognized in the \u201cBanking & Financial\u201d category and NGAGE in the \u201cTelecommunication\u201d category.\n\nAward\n\n#### Juniper Research Future Digital Awards 2026\n\nRecognized as Gold winner for NGAGE CPaaS in the \u201cBest Customer Interaction Solution\u201d category.\n\n...\n\nCountries served\n\n### 3000+\n\nThinkers, Researchers & Innovators\n\n### Careers that shape your future\n\nAt Comviva, you will have the chance to contribute to the tangible impacts of our work, and help us make the world a better place.\n\n---\n\nTitle: Comviva announces Kalyanasundaram Sivasubramaniam to lead the DigiTech Business, Accelerating Platform-Led Growth and AI Transformation - Comviva\nURL: https://www.comviva.com/resources/press-releases/comviva-announces-kalyanasundaram-sivasubramaniam-to-lead-the-digitech-business-accelerating-platform-led-growth-and-ai-transformation/\nPublished: 2026-09-08T00:00:00.000Z\nAuthor: N/A\nHighlights:\n# Comviva an",
+        "error": null,
+        "title": "Exa Web Search: site:comviva.com careers jobs \"NGAGE CPaaS\" OR \"Director Product Management\""
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-bd237a9e-e8a5-4bbe-a3d9-f9007c9580b0",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "Comviva \"Director Product Management\" \"NGAGE CPaaS\" \"careers.comviva\" OR \"jobs.comviva\" OR \"workday\" OR \"greenhouse\""
+        },
+        "output": "Title: Director - Product Management (NGAGE CPaaS)\nURL: https://www.jobleads.com/in/job/director-product-management-ngage-cpaas--bengaluru--eadbca7af701cd8a71a39a489a7f8be1f\nPublished: N/A\nAuthor: N/A\nHighlights:\nI\u2019m interested\n\n# Director - Product Management (NGAGE CPaaS)\n\n## Comviva\n\n## Bengaluru\n\n## On-site\n\n## INR 400,000 - 700,000\n\n## Full time\n\n10 days ago\n\nA complete application in a minute\n\nTailored resume and cover letter, ready to send.\n\nGet past ATS filters\n\nGenerate application\n\n### Job summary\n\nComviva is seeking an experienced Product Leader to define the vision and multi-year roadmap for Ngage CPaaS, focusing on growth across channels like SMS, WhatsApp, and Voice. You will prioritize features based on market demand, revenue impact, and competitive positioning, aligning the roadmap with enterprise customer needs across BFSI, Retail, and Logistics.\n\nLead AI infusion across the platform, including conversational AI, personalization, and GenAI integrations, while guiding the product\n\n### Qualifications\n\n- 10\u201315 years in product management, with strong experience in CPaaS / Communications / SaaS platforms.\n- Proven experience working with or at companies like Twilio, Sinch, Infobip, or similar ecosystems.\n- Deep understanding of messaging channels (SMS, WhatsApp, RBM, Voice APIs).\n- Experience in building platform products and APIs at scale.\n- Strong exposure to AI/ML or GenAI-led product innovations.\n- Demonstrated ability to lead teams and influence cross-functional stakeholders.\n\n### Responsibilities\n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS.\n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video).\n- Prioritize features based on market demand, revenue impact, and competitive positioning.\n\n### Skills\n\nCPaaS / SaaS\n\nPlatform products & APIs\n\nAI/GenAI innovations\n\nLeadership & cross-functional\n\nEnterprise engagement\n\n## Job description\n\n- Define and drive the product vision and multi-y",
+        "error": null,
+        "title": "Exa Web Search: Comviva \"Director Product Management\" \"NGAGE CPaaS\" \"careers.comviva\" OR \"jobs.comviva\" OR \"workday\" OR \"greenhouse\""
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-30c9d2cd-5c24-4742-9d78-e1a716fba331",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "\"Director - Product Management (NGAGE CPaaS)\" Comviva indeed glassdoor"
+        },
+        "output": "Title: Director - Product Management (NGAGE CPaaS) at Comviva \u2014 \u2026\nURL: https://in.linkedin.com/jobs/view/director-product-management-ngage-cpaas-at-comviva-4474132885\nPublished: N/A\nAuthor: N/A\nHighlights:\nDirector - Product Management (NGAGE CPaaS) at Comviva \u2014 Bengaluru, Karnataka, India | LinkedIn Jobs\n\n \n\n# Director - Product Management (NGAGE CPaaS)\n\n Comviva Bengaluru, Karnataka, India \n\n 3 weeks ago 119 applicants \n\nKey Responsibilities Product Strategy & Roadmap \n\n- Define and drive the product vision and multi-year roadmap for Ngage CPaaS \n- Identify growth opportunities across channels (SMS, WhatsApp, Voice, RBM, Email, Video) \n- Prioritize features based on market demand, revenue impact, and competitive positioning \n- Align roadmap with enterprise customer needs across key verticals (BFSI, Retail, Logistics) \n\nAI & Platform Innovation \n\nLead AI infusion across the platform:\n\n- Conversational AI (LLM-powered chatbots, copilots) \n- Intelligent routing & optimization \n- Personalization and campaign automation \n\nDrive integration of GenAI into developer and customer workflows \n\nBuild differentiated capabilities vs competitors (e.g., Twilio, Sinch, Infobip) \n\nProduct Execution & Deliver \n\n- Work closely with engineering to deliver scalable, reliable, and secure platform capabilities \n- Define product requirements (PRDs), success metrics, and GTM readiness \n- Ensure high availability, performance, and compliance (SLA, NFRs, security) \n\nTeam Leadership \n\n- Build and lead a high-performing product team (PMs, APMs) \n- Mentor team on product thinking, execution rigor, and customer obsession \n- Foster a culture of ownership, speed, and innovation \n\nCustomer & Ecosystem Engagement \n\n- Engage with key enterprise customers and partners (telcos, aggregators, OTT platforms) \n- Gather insights to improve product stickiness and reduce churn \n- Drive partnerships across messaging ecosystems (WABA, RBM, etc.) \n\nBusiness Impact \n\n- Own product KPIs: adoption, revenue growth, ",
+        "error": null,
+        "title": "Exa Web Search: \"Director - Product Management (NGAGE CPaaS)\" Comviva indeed glassdoor"
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-340697e5-6c8d-40a8-8e6c-9eee97da0ef3",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "\"Puja kumari\" Comviva email talent acquisition"
+        },
+        "output": "Title: Puja Kumari - Talent Acquisition Lead at Comviva | The Org\nURL: https://theorg.com/org/comviva/org-chart/puja-kumari\nPublished: N/A\nAuthor: N/A\nHighlights:\n# Puja Kumari \n\nTalent Acquisition Lead\n\nPuja Kumari has a strong background in talent acquisition and human resources. Their most recent role was as a Talent Acquisition Lead at Comviva, starting in February 2022. Prior to that, they worked as a Senior Talent Acquisition Specialist at Comviva from February 2018 to February 2022. \n\nBefore joining Comviva, Puja worked as an HR Executive at Nomura Services Pvt Ltd through IPES from December 2013 to June 2015. In this role, they handled and managed all recruitment activities related to IT Consultant hiring across divisions. Puja was responsible for sharing requirements with vendors, shortlisting profiles, scheduling interviews, and managing joining formalities. Additionally, they handled end-to-end recruitment for Equities and Fixed Income technology for permanent hires.\n\n---\n\nTitle: Comviva HR Department | Comviva Human Resources Department\nURL: https://rocketreach.co/comviva-hr-department_b5eb236df42e8416\nPublished: N/A\nAuthor: N/A\nHighlights:\nManager at Comviva \n\n Delhi, India \n\nView\n\n 2 \n\n- gmail.com\n- comviva.com\n\n 1 \n\n- +91 99116 8XXXX\n- \n\n### Puja Kumari\n\n#### Talent Acquisition Lead at Comviva \n\n Gurugram, HR, IN \n\nView\n\n 2 \n\n- comviva.com\n- gmail.com\n\n 1 \n\n- +91 99998 0XXXX\n-\n\n---\n\nTitle: Puja kumari\nURL: https://linkedin.com/in/puja-kumari-12281a45\nPublished: 2026-10-17T23:40:43.000Z\nAuthor: N/A\nHighlights:\n# Puja kumari\n\nSenior Manager@ Comviva -A Tech Mahindra Co.| LinkedIn Recruiter, Talent Management\n\nGurgaon, Haryana, India (IN)\n\n500 connections \u2022 9,745 followers\n\n## About\n\nAs the Talent Acquisition Lead at Comviva-A Tech Mahindra Company, I am responsible for overseeing and managing all recruitment activities related to IT hiring across divisions, from sourcing to onboarding. With over 9 years of experience in the human resources field, I have",
+        "error": null,
+        "title": "Exa Web Search: \"Puja kumari\" Comviva email talent acquisition"
+      },
+      {
+        "type": "tool",
+        "tool": "websearch",
+        "callID": "call-dc1fcdda-482d-4137-acdc-6a2745c65ab6",
+        "status": "completed",
+        "input": {
+          "numResults": 10,
+          "query": "\"Sabyasachi Goswami\" Comviva email"
+        },
+        "output": "Title: We're looking for a dynamic OSS Expert with strong hands-on experience in Technical Management or Solution Architecture to join our growing team! | Sabyasachi G\nURL: https://www.linkedin.com/posts/sabyasachi-g-496079202_oss-hiring-telecomcareers-activity-7323645695977017344-muzj\nPublished: N/A\nAuthor: Sabyasachi G\nHighlights:\n**Sabyasachi G**: Director TA at Comviva for 10 months with 5 years 6 months of total professional experience. Previous roles include Senior Recruitment Specialist, - Leadership & Strategic hiring at Netcracker Technology and Recruitment Specialist at Netcracker Technology. Based in Gurugram, Haryana, India [IN].\n\n---\n\nWe're looking for a dynamic OSS Expert with strong hands-on experience in Technical Management or Solution Architecture to join our growing team!\nThe ideal candidate should bring deep expertise across key OSS domains, including:\n\ud83d\udd39 Inventory Management\n\ud83d\udd39 Orchestration\n\ud83d\udd39 Service Assurance\n\ud83d\udd39 Provisioning & Activation\n\ud83d\udd39 Order Management\nThis is a critical role that will collaborate with cross-functional teams to ensure seamless service delivery, boost operational efficiency, and elevate network intelligence.\n\ud83d\udccd Location: Pune & Gurgaon\n\ud83d\udd27 Experience: 12+ years\nIf you\u2019re passionate about building robust OSS platforms and shaping the future of telecom operations, we\u2019d love to connect!\n\ud83d\udce9 DM me or share your profile at sabyasachi.goswami@netcracker.com\n#OSS #Hiring #TelecomCareers #InventoryManagement #OrderManagement #ServiceAssurance #Orchestration #TelecomJobs #PuneJobs #GurgaonJobsI'm interestedI'm interestedNadeem Ahmad#cfbrI'm interested\ud83d\ude80 Exciting opportunityTarun SinglaMukesh MishraI'm interestedI'm interested\n\n---\n\nTitle: Currently hiring for a hands-on Technical Manager or Senior Technical Manager or Engineering Manager with extensive delivery experience in Java, microservices, CICD, and DevOps. The ideal candidate should have at least 12+ \u2026 | Sabyasachi G\nURL: https://www.linkedin.com/feed/update/urn:li:activity:7282357835",
+        "error": null,
+        "title": "Exa Web Search: \"Sabyasachi Goswami\" Comviva email"
+      }
+    ],
+    "assistant_tokens": {
+      "total": 74389,
+      "input": 7595,
+      "output": 1124,
+      "reasoning": 1734,
+      "cache": {
+        "read": 63936,
+        "write": 0
+      }
+    },
+    "assistant_error": null
+  }
+]
